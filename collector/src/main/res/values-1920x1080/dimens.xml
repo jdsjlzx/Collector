@@ -1,0 +1,13 @@
+<resources>
+    
+    <!-- <dimen name="linebreaklayout_padding_width">25dp</dimen>
+    <dimen name="linebreaklayout_padding_height">30dp</dimen> -->
+    <dimen name="linebreaklayout_padding_width">6dp</dimen>
+    <dimen name="linebreaklayout_padding_height">10dp</dimen>
+    <dimen name="checkbox_padding_horizontal">12dp</dimen>
+    <dimen name="checkbox_padding_vertical">5dp</dimen>
+    <dimen name="home_task_pic_height">172dp</dimen>
+    <dimen name="font_circle_size">28.0sp</dimen>
+    <dimen name="pic_thumbnail_height">80dp</dimen>
+    
+</resources> 

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" >
+
+    <!-- title bar -->
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title_bar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarStyle="outsideOverlay" >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/user_nick_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_white_preferences_item"
+                android:clickable="true" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="25dip"
+                    android:paddingTop="15dip"
+                    android:text="@string/user_nick"
+                    android:textColor="#353535"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/user_nick_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:paddingTop="15dip"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="17sp" />
+            </RelativeLayout>
+
+                <include layout="@layout/layout_horizontal_line"/>
+
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_white_preferences_item"
+                android:clickable="true" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="25dip"
+                    android:paddingTop="15dip"
+                    android:text="@string/user_mobile"
+                    android:textColor="#353535"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/user_mobile_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:paddingTop="15dip"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="17sp" />
+            </RelativeLayout>
+            
+            
+            <include layout="@layout/layout_horizontal_line"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_white_preferences_item"
+                android:clickable="true"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="25dip"
+                    android:paddingTop="15dip"
+                    android:text="@string/user_city"
+                    android:textColor="#353535"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/user_city_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:paddingTop="15dip"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="17sp" />
+            </RelativeLayout>
+            
+            <include layout="@layout/layout_horizontal_line" android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_white_preferences_item"
+                android:clickable="true" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="25dip"
+                    android:paddingTop="15dip"
+                    android:text="@string/user_score"
+                    android:textColor="#353535"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/user_score_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:paddingTop="15dip"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="17sp" />
+            </RelativeLayout>
+            
+            
+            <include layout="@layout/layout_horizontal_line"/>
+
+            <RelativeLayout
+                android:id="@+id/user_level_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_white_preferences_item"
+                android:clickable="true" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="25dip"
+                    android:paddingTop="15dip"
+                    android:text="@string/user_level"
+                    android:textColor="#353535"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/user_level_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:paddingTop="15dip"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="17sp" />
+            </RelativeLayout>
+            
+            
+            <include layout="@layout/layout_horizontal_line"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 >
+
+                <TextView
+                    android:id="@+id/modify_password_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/selector_white_preferences_item"
+                	android:clickable="true"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="25dip"
+                    android:paddingTop="15dip"
+                    android:text="@string/user_modify_password"
+                    android:textColor="#353535"
+                    android:textSize="17sp" />
+
+
+            </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                
+            </LinearLayout>
+            -->
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" >
+
+    <string name="app_name">众包项目</string>
+    <string name="task_details_title">任务详情</string>
+    <string name="person_center_title">个人中心</string>
+	<string name="user_feedback">意见反馈</string>
+	<string name="update_app">版本信息</string>
+	<string name="app_settings">设置</string>
+	<string name="about_us">关于我们</string>
+	<string name="user_logout">注销</string>
+	<string name="user_tasks">我的任务</string>
+	<string name="user_messages">我的消息</string>
+	<string name="person_info">个人信息</string>
+	<string name="user_nick">昵称</string>
+	<string name="user_mobile">手机</string>
+	<string name="user_city">城市</string>
+	<string name="user_score">积分</string>
+	<string name="user_level">等级</string>
+	<string name="user_modify_password">修改密码</string>
+	<string name="user_modify_nickname">修改昵称</string>
+	<string name="save">保存</string>
+	
+	<string name="user_not_login_tip">立即登录</string>
+	<string name="user_participate_in_task">我要参加(%1$s人已参加)</string>
+	<string name="user_upload_task_pic_tip">立即上传</string>
+	<string name="user_save_task_pic_tip">立即保存</string>
+	<string name="user_upload_all_task_pic_tip">全部上传</string>
+	
+	<string name="task_pic_uploaded">已上传</string>
+	<string name="task_pic_wait_to_upload">未上传</string>
+	<string name="task_pic_remain">剩余</string>
+	<string name="task_pic_tag">标签：</string>
+	<string name="task_pic_source">来源：</string>
+	<string name="task_pic_source_album">图库</string>
+	<string name="task_pic_source_camera">手机拍摄</string>
+	<string name="input_task_pic_source_tip">请输入图片来源</string>
+	<string name="task_pic_tag_count">标签[%1$d/%2$d]</string>
+	<string name="task_pic_tag_is_null">标签不能为空!</string>
+	<string name="task_pic_tag_count_is_not_complete">标签不完整，请补充完整</string>
+	<string name="no_complete_tasks_tip">没有发现具有有效标签的图片，请先补充完整图片的标签！</string>
+	
+	<string name="task_state_ongoing">进行中</string>
+	<string name="task_state_under_review">审核中</string>
+	<string name="task_state_finished">已完成</string>
+	<string name="task_state_expired">已过期</string>
+	<string name="task_reward_point">可以获得%1$d积分</string>
+	<string name="doings_reward_point">任务奖励%1$d积分</string>
+	<string name="doings_task_participation_number">%1$d人已经参加</string>
+	
+	<string name="task_pic_tag_hint">点击添加标签</string>
+	<string name="add_task_pic_tag">添加标签</string>
+	
+	<string name="user_login_tip">请先登录！</string>
+	<string name="help">帮助</string>
+	
+	<string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <string name="ptr_refreshing">Refreshing</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="reload_tip">没有数据，点击屏幕刷新</string>
+    
+    <string name="get_verify_code_failure">获取短信验证码失败，请稍后再试</string>
+    <string name="user_register_success">注册成功!</string>
+    <string name="registered_mobile_in_use">该手机号已经被注册，请重新换个</string>
+    <string name="register_mobile_empty">手机号码不能为空</string>
+    <string name="register_mobile_invalid">手机号无效，请重新输入</string>
+    <string name="register_password_empty">密码和验证密码不能为空</string>
+    <string name="register_password_length_failed">密码和验证密码长度必须在8&#8211;16位之间</string>
+    <string name="register_verify_code_empty">短信验证码不能为空</string>
+    <string name="register_verify_code_error">短信验证码不正确</string>
+    <string name="register_verify_code_failed">短信验证码已经失效,请重新获取</string>
+    <string name="accept_registration_agreement">请同意我们的使用条款和隐私政策</string>
+    <string name="tip">提示</string>
+    <string name="login_wait_tip">正在登录，请您耐心等待&#8230;</string>
+    <string name="login_info_empty">用户名或者密码不能为空</string>
+    <string name="login_info_error">用户名或者密码错误，请重新输入</string>
+    <string name="login_failed">登录失败，请稍后再试</string>
+    <string name="old_password_empty">旧密码不能为空</string>
+    <string name="old_password_length_failed">旧密码长度必须在8&#8211;16位之间</string>
+    <string name="new_password_length_failed">新密码和验证密码长度必须在8&#8211;16位之间</string>
+    <string name="modify_password_empty">新密码和验证密码不能为空</string>
+    <string name="modify_password_failed">修改密码失败</string>
+    <string name="reset_password_success">重置密码成功</string>
+    <string name="reset_password_failed">重置密码失败</string>
+    <string name="join_doings_failed">参加任务失败，请稍候再试。</string>
+    <string name="audit">未审核</string>
+    <string name="be_approved">审核通过</string>
+    <string name="not_be_approved">审核未通过</string>
+    <string name="digital">[ %1$d ]</string>
+    <string name="user_score_text">积分: %1$d</string>
+    <string name="user_level_text">V%1$d</string>
+    <string name="person_push_msg_text">我的消息</string>
+    <string name="share_title">众包项目，等你拿积分!</string>
+    <string name="share_content">我已在众包项目上传%1$s张图片，获得%2$s积分！</string>
+</resources>

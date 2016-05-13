@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abs_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\abs_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_white_preferences_item.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_white_preferences_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\action_bar_item_background.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\action_bar_item_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_corners_button.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_corners_button.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_white_preferences_item_pressed.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_white_preferences_item_pressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_corners_button_uneanble.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_corners_button_uneanble.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\guide_round.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\guide_round.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_checkbox.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_checkbox.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_white_preferences_item.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_white_preferences_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_corners_button_pressed.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_corners_button_pressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_corners_button.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_corners_button.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\list_selector_holo_dark.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable\\list_selector_holo_dark.xml"
+    }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:color="#FF111111"/>
+    <!-- pressed -->
+    <item android:state_focused="true" android:color="#FF222222"/>
+    <!-- focused -->
+    <item android:state_selected="true" android:color="#FF333333"/>
+    <!-- selected -->
+    <item android:state_active="true" android:color="#FF444444"/>
+    <!-- active -->
+    <item android:state_checkable="true" android:color="#FF555555"/>
+    <!-- checkable -->
+    <item android:state_checked="true" android:color="@color/common_button_color_dark"/>
+    <!-- checked -->
+    <item android:state_enabled="true" android:color="@android:color/white"/>
+    <!-- enabled -->
+    <item android:state_window_focused="true" android:color="#FF888888"/>
+    <!-- window_focused -->
+
+</selector>

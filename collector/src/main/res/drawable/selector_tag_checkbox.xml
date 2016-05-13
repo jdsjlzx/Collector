@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- <item android:drawable="@drawable/select_checkbox_off_disable" android:state_enabled="false" android:state_checked="false"/>
+    <item android:drawable="@drawable/select_checkbox_off" android:state_checked="false" android:state_enabled="true"/>
+    <item android:drawable="@drawable/select_checkbox_on_disable" android:state_checked="true" android:state_enabled="false"/>
+    <item android:drawable="@drawable/select_checkbox_on"/> -->
+    <item android:drawable="@drawable/shape_white_corners_button_disabled" android:state_enabled="false" android:state_checked="false"/>
+    <item android:drawable="@drawable/shape_white_corners_button" android:state_checked="false" android:state_enabled="true"/>
+    <item android:drawable="@drawable/shape_white_corners_button" android:state_checked="true" android:state_enabled="false"/>
+    <item android:drawable="@drawable/shape_white_corners_button_pressed" android:state_checked="true" android:state_enabled="true"/>
+    <item android:drawable="@drawable/shape_white_corners_button_pressed"/>
+
+</selector>

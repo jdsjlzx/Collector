@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="edit_box_height">44.0dip</dimen>
+    <dimen name="input_box_left_padding">9.0dip</dimen>
+    <dimen name="notice_vertical_padding">8.0dip</dimen>
+    <dimen name="font_especially_large">20.0sp</dimen>
+    <dimen name="font_large">18.0sp</dimen>
+    <dimen name="font_normal">16.0sp</dimen>
+    <dimen name="font_medium">14.0sp</dimen>
+    <dimen name="font_small">12.0sp</dimen>
+    <dimen name="btn_next_height">48.0dip</dimen>
+    <dimen name="cell_height">48.0dip</dimen>
+    <dimen name="vertical_sep_width">1.0px</dimen>
+    <dimen name="title_bar_text_size">22.0sp</dimen>
+
+    <!-- 下拉刷新字体 -->
+    <dimen name="picture_pull_to_refresh_loading_text_size">14dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_text_size">10dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_top_margin">6dp</dimen>
+    <dimen name="picture_pull_to_refresh_footer_height">40dp</dimen>
+</resources>

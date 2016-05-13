@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" >
+
+    <!-- title bar -->
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title_bar" />
+
+    <LinearLayout
+        android:id="@+id/account_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/edit_box_height"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/input_box"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/account_editor"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/edit_box_height"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:hint="@string/mobile_hint"
+            android:inputType="numberDecimal"
+            android:maxLength="11"
+            android:paddingLeft="@dimen/input_box_left_padding"
+            android:singleLine="true"
+            android:textColor="@color/grey_text"
+            android:textSize="@dimen/font_normal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/notice_vertical_padding"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/red_text"
+        android:textSize="@dimen/font_small"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/edit_box_height"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/notice_vertical_padding"
+        android:background="@drawable/input_box"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/verify_code_editor"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/edit_box_height"
+            android:layout_weight="6.0"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:hint="@string/input_sms_verify_hint"
+            android:inputType="numberDecimal"
+            android:maxLength="8"
+            android:paddingLeft="@dimen/input_box_left_padding"
+            android:singleLine="true"
+            android:textColor="@color/grey_text"
+            android:textSize="@dimen/font_normal" />
+
+        <View
+            android:layout_width="@dimen/vertical_sep_width"
+            android:layout_height="@dimen/edit_box_height"
+            android:background="@color/vertical_sep_color" />
+
+        <Button
+            android:id="@+id/get_verify_code"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/edit_box_height"
+            android:layout_weight="4.0"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/get_verify_code"
+            android:textColor="@color/grey_text"
+            android:textSize="@dimen/font_normal" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/password_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/notice_vertical_padding"
+        android:background="@drawable/input_box"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/password_editor"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/edit_box_height"
+            android:background="@null"
+            android:ellipsize="end"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="@string/set_psw"
+            android:inputType="textPassword"
+            android:maxLength="11"
+            android:paddingLeft="@dimen/input_box_left_padding"
+            android:singleLine="true"
+            android:textColor="@color/grey_text"
+            android:textSize="@dimen/font_normal" >
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/confirm_password_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/edit_box_height"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/notice_vertical_padding"
+        android:background="@drawable/input_box"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/confirm_password_editor"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/edit_box_height"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:hint="@string/confirm_psw"
+            android:inputType="textPassword"
+            android:maxLength="11"
+            android:paddingLeft="@dimen/input_box_left_padding"
+            android:singleLine="true"
+            android:textColor="@color/grey_text"
+            android:textSize="@dimen/font_normal" />
+    </LinearLayout>
+
+        <TextView
+        android:id="@+id/notice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/notice_vertical_padding"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/receive_sms_verify"
+        android:textColor="@color/grey_text"
+        android:textSize="@dimen/font_medium"
+        android:visibility="invisible" />
+        
+    <Button
+        android:id="@+id/next"
+        style="@style/common_button_style"
+        android:background="@drawable/selector_corners_button"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/commit"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="15.0dip" >
+
+        <CheckBox
+            android:id="@+id/protocol_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selector_checkbox"
+            android:checked="true"
+            android:paddingLeft="16.0dip"
+            android:text="@string/agree"
+            android:textColor="@color/grey_text"
+            android:textSize="@dimen/font_medium" />
+
+        <TextView
+            android:id="@+id/protocol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/protocol_check"
+            android:layout_alignTop="@+id/protocol_check"
+            android:layout_toRightOf="@+id/protocol_check"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/protocol_name"
+            android:textColor="@color/blue_text"
+            android:textSize="@dimen/font_medium" />
+    </RelativeLayout>
+
+</LinearLayout>

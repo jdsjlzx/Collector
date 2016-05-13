@@ -1,0 +1,186 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lindo.collector"
+    android:versionCode="7"
+    android:versionName="0.7" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- QQ、QQ空间所需权限 -->
+	<uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name=".PushApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+		 >
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="554a2f0167e58e5856003fae" />
+		<!-- 在百度开发者中心查询应用的API Key -->
+        <meta-data 
+            android:name="api_key" 
+            android:value="48YiX3RgcCYmv9aaTcr3uTVK" />
+        <provider android:name=".db.CollectorProvider"
+            android:authorities="com.lindo.provider.Collector"
+            android:exported="false">
+            <grant-uri-permission android:pathPattern=".*" />
+        </provider>
+        
+        <activity
+            android:name=".ui.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.MainUIActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.GuideActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.UserCenterActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.UserLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.UserRegisterActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.ModifyUserPwdActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.ForgetUserPwdActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.TaskDetailsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.PerformTaskActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.UserDoingsListActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.UserInfoActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.SettingsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.ModifyUserNickNameActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.UndoTaskActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.CompletedTaskActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.HelpActivity" android:screenOrientation="portrait" />
+        <activity android:name=".activity.SetTaskPicTagActivity" android:theme="@style/TagDialogMiddle" />
+        <activity android:name=".activity.PushMsgListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.lzx.work.activity.CommonWebActivity" android:screenOrientation="portrait" />
+        <service android:name=".service.CollectorService" />
+        <activity android:name=".wxapi.WXEntryActivity"
+	   		android:theme="@android:style/Theme.Translucent.NoTitleBar"
+	   		android:configChanges="keyboardHidden|orientation|screenSize"
+	   		android:exported="true"
+	   		android:screenOrientation="portrait" />
+        
+        <activity android:name=".umeng.fb.UmengCustomFBActivity" />
+        <activity android:name="com.umeng.fb.ConversationActivity" />
+
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"  android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        
+        <!-- push开始 -->
+        <!-- push应用定义消息receiver声明 -->
+        <receiver android:name="com.lindo.collector.receiver.BaiduPushReceiver">
+            <intent-filter>
+                <!-- 接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <!-- 接收bind,unbind,fetch,delete等反馈消息 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- push必须的receviver和service声明 -->
+        <receiver android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+		<!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+		<action android:name="android.intent.action.MEDIA_MOUNTED" />
+		<action android:name="android.intent.action.USER_PRESENT" />
+		<action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+		<action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package" />
+            </intent-filter>                   
+        </receiver>
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":bdservice_v1"  >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service>
+		<service android:name="com.baidu.android.pushservice.CommandService"
+            android:exported="true" />
+        <!-- push结束 -->
+        
+        <!-- ###################注册SDK使用的Activity###################### -->
+        <!--分享编辑页-->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+
+        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID-->
+                <data android:scheme="tencent1104579615" /> 
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tencent.connect.common.AssistActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+    </application>
+
+</manifest>

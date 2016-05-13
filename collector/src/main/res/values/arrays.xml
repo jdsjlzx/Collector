@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 图片审核状态 -->
+    <string-array name="pic_auditing_states">
+        <item>@string/audit</item>
+        <item>@string/be_approved</item>
+        <item>@string/not_be_approved</item>
+    </string-array>
+
+</resources>

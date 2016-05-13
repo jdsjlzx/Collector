@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    
+    <TextView 
+    android:id="@+id/loadText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="10dip"
+    android:drawableTop="@drawable/ic_reload"
+    android:gravity="center"
+    android:text="@string/reload_tip"
+    android:textColor="#ff898989"
+    android:textSize="@dimen/font_normal"
+    android:visibility="visible" />
+</LinearLayout>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/title_bar_style" >
+
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:addStatesFromChildren="true"
+        android:background="@drawable/action_bar_item_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/back_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:contentDescription="@null"
+            android:src="@drawable/back_btn" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_text"
+        style="@style/title_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/right_layout"
+        android:layout_toRightOf="@id/left_layout"
+        android:singleLine="true"
+        />
+    
+    <LinearLayout
+        android:id="@+id/right_layout"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:addStatesFromChildren="true"
+        android:background="@drawable/action_bar_item_background"
+        android:clickable="false"
+        android:focusable="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/right_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@null"
+            android:background="@drawable/selector_corners_button"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/right_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

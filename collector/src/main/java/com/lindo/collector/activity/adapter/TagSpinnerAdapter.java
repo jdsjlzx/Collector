@@ -1,0 +1,64 @@
+package com.lindo.collector.activity.adapter;
+
+import java.util.List;
+
+import com.lindo.collector.R;
+import com.lindo.collector.activity.adapter.TagListAdapter.ViewHolder;
+import com.lindo.collector.domain.Tag;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class TagSpinnerAdapter extends BaseAdapter {
+
+	private Context mContext;
+	private List<Tag> mTagList;
+	private LayoutInflater mInflater;
+	public TagSpinnerAdapter(Context context, List<Tag> list) {
+		this.mContext = context;
+		this.mTagList = list;
+		this.mInflater = LayoutInflater.from(mContext);
+	}
+	
+	@Override
+	public int getCount() {
+		return mTagList.size();
+	}
+
+	@Override
+	public Object getItem(int position) {
+		return mTagList.get(position);
+	}
+
+	@Override
+	public long getItemId(int position) {
+		return position;
+	}
+
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		final ViewHolder viewHolder;
+		if (null == convertView) {
+			viewHolder = new ViewHolder();
+			convertView = mInflater.inflate(R.layout.layout_pic_tag_spinner_tiem, parent, false);
+			viewHolder.nameText = (TextView) convertView.findViewById(R.id.tag_name_text);
+
+			convertView.setTag(viewHolder);
+		} else {
+			viewHolder = (ViewHolder) convertView.getTag();
+		}
+		Tag tag = mTagList.get(position);	
+		viewHolder.nameText.setText(tag.title);
+		return convertView;
+	}
+	
+	class ViewHolder {
+		TextView nameText;
+	}
+
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" 
+    android:clipChildren="false"  
+    android:gravity="center_horizontal"  
+    android:layerType="software"  >
+
+    <!-- title bar -->
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dip"
+        android:paddingBottom="10dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/uploaded_pic_layout"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:background="@drawable/shape_circle_grey"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/uploaded_pic_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#b5ab5c"
+                android:textSize="@dimen/font_circle_size"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_pic_uploaded"
+                android:textColor="#525252"
+                android:textSize="@dimen/font_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/undo_task_pic_layout"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_marginLeft="46dip"
+            android:layout_marginRight="46dip"
+            android:background="@drawable/shape_circle_grey"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/undo_task_pic_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#dd6d00"
+                android:textSize="@dimen/font_circle_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_pic_wait_to_upload"
+                android:textColor="#525252"
+                android:textSize="@dimen/font_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/remainder_task_pic_layout"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:background="@drawable/shape_circle_grey"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/remainder_task_pic_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#bbb"
+                android:textSize="@dimen/font_circle_size" />
+
+            <TextView
+                android:id="@+id/remainder_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_pic_remain"
+                android:textColor="#525252"
+                android:textSize="@dimen/font_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/task_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/pager_margin"  
+        android:layout_marginRight="@dimen/pager_margin"  
+        android:clipChildren="false"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/next_button"
+            style="@style/common_button_style"
+            android:background="@drawable/selector_corners_button"
+            android:enabled="false"
+            android:text="@string/user_upload_task_pic_tip"
+            />
+        <TextView
+            android:id="@+id/pic_status"
+            android:layout_width="match_parent"
+        	android:layout_height="@dimen/btn_next_height"
+        	android:gravity="center"
+        	android:textSize="@dimen/font_large"
+            android:text="@string/user_upload_task_pic_tip"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

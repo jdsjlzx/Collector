@@ -1,0 +1,1735 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Collector:
+* .DS_Store
+* ic_launcher-web.png
+* proguard-project.txt
+From Work_Library:
+* ic_launcher-web.png
+* proguard-project.txt
+From social_sdk_library_project:
+* build.gradle
+* build\
+* build\generated\
+* build\generated\source\
+* build\generated\source\buildConfig\
+* build\generated\source\buildConfig\androidTest\
+* build\generated\source\buildConfig\androidTest\debug\
+* build\generated\source\buildConfig\androidTest\debug\com\
+* build\generated\source\buildConfig\androidTest\debug\com\umeng_social_sdk_res_lib\
+* build\generated\source\buildConfig\androidTest\debug\com\umeng_social_sdk_res_lib\test\
+* build\generated\source\buildConfig\androidTest\debug\com\umeng_social_sdk_res_lib\test\BuildConfig.java
+* build\generated\source\buildConfig\debug\
+* build\generated\source\buildConfig\debug\com\
+* build\generated\source\buildConfig\debug\com\umeng_social_sdk_res_lib\
+* build\generated\source\buildConfig\debug\com\umeng_social_sdk_res_lib\BuildConfig.java
+* build\generated\source\buildConfig\release\
+* build\generated\source\buildConfig\release\com\
+* build\generated\source\buildConfig\release\com\umeng_social_sdk_res_lib\
+* build\generated\source\buildConfig\release\com\umeng_social_sdk_res_lib\BuildConfig.java
+* build\generated\source\r\
+* build\generated\source\r\androidTest\
+* build\generated\source\r\androidTest\debug\
+* build\generated\source\r\androidTest\debug\com\
+* build\generated\source\r\androidTest\debug\com\umeng_social_sdk_res_lib\
+* build\generated\source\r\androidTest\debug\com\umeng_social_sdk_res_lib\R.java
+* build\generated\source\r\androidTest\debug\com\umeng_social_sdk_res_lib\test\
+* build\generated\source\r\androidTest\debug\com\umeng_social_sdk_res_lib\test\R.java
+* build\generated\source\r\debug\
+* build\generated\source\r\debug\com\
+* build\generated\source\r\debug\com\umeng_social_sdk_res_lib\
+* build\generated\source\r\debug\com\umeng_social_sdk_res_lib\R.java
+* build\generated\source\r\release\
+* build\generated\source\r\release\com\
+* build\generated\source\r\release\com\umeng_social_sdk_res_lib\
+* build\generated\source\r\release\com\umeng_social_sdk_res_lib\R.java
+* build\intermediates\
+* build\intermediates\blame\
+* build\intermediates\blame\res\
+* build\intermediates\blame\res\androidTest\
+* build\intermediates\blame\res\androidTest\debug\
+* build\intermediates\blame\res\androidTest\debug\multi\
+* build\intermediates\blame\res\androidTest\debug\multi\values.json
+* build\intermediates\blame\res\androidTest\debug\single\
+* build\intermediates\blame\res\androidTest\debug\single\anim.json
+* build\intermediates\blame\res\androidTest\debug\single\drawable-hdpi-v4.json
+* build\intermediates\blame\res\androidTest\debug\single\drawable-mdpi-v4.json
+* build\intermediates\blame\res\androidTest\debug\single\drawable-xhdpi-v4.json
+* build\intermediates\blame\res\androidTest\debug\single\drawable-xxhdpi-v4.json
+* build\intermediates\blame\res\androidTest\debug\single\drawable.json
+* build\intermediates\blame\res\androidTest\debug\single\layout-sw550dp-large-v13.json
+* build\intermediates\blame\res\androidTest\debug\single\layout.json
+* build\intermediates\blame\res\debug\
+* build\intermediates\blame\res\debug\multi\
+* build\intermediates\blame\res\debug\multi\values.json
+* build\intermediates\blame\res\debug\single\
+* build\intermediates\blame\res\debug\single\anim.json
+* build\intermediates\blame\res\debug\single\drawable-hdpi-v4.json
+* build\intermediates\blame\res\debug\single\drawable-mdpi-v4.json
+* build\intermediates\blame\res\debug\single\drawable-xhdpi-v4.json
+* build\intermediates\blame\res\debug\single\drawable-xxhdpi-v4.json
+* build\intermediates\blame\res\debug\single\drawable.json
+* build\intermediates\blame\res\debug\single\layout-sw550dp-large-v13.json
+* build\intermediates\blame\res\debug\single\layout.json
+* build\intermediates\blame\res\release\
+* build\intermediates\blame\res\release\multi\
+* build\intermediates\blame\res\release\multi\values.json
+* build\intermediates\blame\res\release\single\
+* build\intermediates\blame\res\release\single\anim.json
+* build\intermediates\blame\res\release\single\drawable-hdpi-v4.json
+* build\intermediates\blame\res\release\single\drawable-mdpi-v4.json
+* build\intermediates\blame\res\release\single\drawable-xhdpi-v4.json
+* build\intermediates\blame\res\release\single\drawable-xxhdpi-v4.json
+* build\intermediates\blame\res\release\single\drawable.json
+* build\intermediates\blame\res\release\single\layout-sw550dp-large-v13.json
+* build\intermediates\blame\res\release\single\layout.json
+* build\intermediates\bundles\
+* build\intermediates\bundles\debug\
+* build\intermediates\bundles\debug\AndroidManifest.xml
+* build\intermediates\bundles\debug\R.txt
+* build\intermediates\bundles\debug\aapt\
+* build\intermediates\bundles\debug\aapt\AndroidManifest.xml
+* build\intermediates\bundles\debug\classes.jar
+* build\intermediates\bundles\debug\libs\
+* build\intermediates\bundles\debug\libs\SocialSDK_QQZone_3.jar
+* build\intermediates\bundles\debug\libs\SocialSDK_WeiXin_1.jar
+* build\intermediates\bundles\debug\libs\SocialSDK_WeiXin_2.jar
+* build\intermediates\bundles\debug\libs\SocialSDK_whatsapp.jar
+* build\intermediates\bundles\debug\libs\bolts-android-1.1.4.jar
+* build\intermediates\bundles\debug\libs\httpmime-4.1.3.jar
+* build\intermediates\bundles\debug\libs\mta-sdk-1.6.2.jar
+* build\intermediates\bundles\debug\libs\open_sdk_r5509.jar
+* build\intermediates\bundles\debug\libs\umeng_social_sdk.jar
+* build\intermediates\bundles\debug\res\
+* build\intermediates\bundles\debug\res\anim\
+* build\intermediates\bundles\debug\res\anim\umeng_socialize_fade_in.xml
+* build\intermediates\bundles\debug\res\anim\umeng_socialize_fade_out.xml
+* build\intermediates\bundles\debug\res\anim\umeng_socialize_shareboard_animation_in.xml
+* build\intermediates\bundles\debug\res\anim\umeng_socialize_shareboard_animation_out.xml
+* build\intermediates\bundles\debug\res\anim\umeng_socialize_slide_in_from_bottom.xml
+* build\intermediates\bundles\debug\res\anim\umeng_socialize_slide_out_from_bottom.xml
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_button_icon.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_close.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\umeng_socialize_light_bar_bg_pad.9.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\umeng_socialize_nav_bar_bg_pad.9.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\umeng_socialize_oauth_check_off.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\umeng_socialize_oauth_check_on.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\umeng_socialize_share_music.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\umeng_socialize_share_pic.png
+* build\intermediates\bundles\debug\res\drawable-hdpi-v4\umeng_socialize_share_video.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_button_icon.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_close.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_profile_picture_blank_portrait.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_profile_picture_blank_square.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\bundles\debug\res\drawable-mdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_button_icon.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_close.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\bundles\debug\res\drawable-xhdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\
+* build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\com_facebook_button_icon.png
+* build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\bundles\debug\res\drawable\
+* build\intermediates\bundles\debug\res\drawable\com_facebook_button_background.xml
+* build\intermediates\bundles\debug\res\drawable\com_facebook_button_like_background.xml
+* build\intermediates\bundles\debug\res\drawable\com_facebook_button_login_silver_background.xml
+* build\intermediates\bundles\debug\res\drawable\com_facebook_button_send_background.xml
+* build\intermediates\bundles\debug\res\drawable\messenger_button_blue_bg_round.xml
+* build\intermediates\bundles\debug\res\drawable\messenger_button_blue_bg_selector.xml
+* build\intermediates\bundles\debug\res\drawable\messenger_button_white_bg_round.xml
+* build\intermediates\bundles\debug\res\drawable\messenger_button_white_bg_selector.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_action_back.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_action_back_normal.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_action_back_selected.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_at_button.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_at_normal.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_at_selected.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_bind_bg.9.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_button_blue.9.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_button_grey.9.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_button_grey_blue.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_button_login.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_button_login_normal.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_button_login_pressed.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_button_red.9.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_button_red_blue.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_button_white.9.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_button_white_blue.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_default_avatar.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_douban_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_douban_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_evernote.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_evernote_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_facebook.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_facebook_close.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_facebook_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_fetch_image.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_flickr.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_flickr_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_follow_check.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_follow_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_follow_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_foursquare.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_foursquare_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_gmail_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_gmail_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_google.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_instagram_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_instagram_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_kakao.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_kakao_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_laiwang.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_laiwang_dynamic.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_laiwang_dynamic_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_laiwang_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_light_bar_bg.9.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_line.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_line_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_linkedin.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_linkedin_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_location_ic.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_location_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_location_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_nav_bar_bg.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_oauth_check.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_oauth_check_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_oauth_check_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_pinterest.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_pinterest_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_pocket.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_pocket_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_qq_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_qq_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_qzone_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_qzone_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_refersh.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_renren_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_renren_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_search_icon.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_shape_solid_black.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_shape_solid_grey.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_share_to_button.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_share_transparent_corner.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_shareboard_item_background.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_sidebar_normal.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_sidebar_selected.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_sidebar_selector.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_sina_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_sina_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_sms_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_sms_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_back_bt.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_back_bt_normal.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_back_bt_selected.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_right_bt.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_right_bt_normal.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_right_bt_selected.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_tab_button_left.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_tab_button_right.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_tab_left_normal.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_tab_left_pressed.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_tab_right_normal.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_title_tab_right_pressed.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_tumblr.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_tumblr_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_twitter.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_tx_off.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_tx_on.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_wechat.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_wechat_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_whatsapp.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_whatsapp_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_window_shadow_pad.xml
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_wxcircle.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_wxcircle_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_x_button.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_yixin.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_yixin_circle.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_yixin_circle_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_yixin_gray.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_ynote.png
+* build\intermediates\bundles\debug\res\drawable\umeng_socialize_ynote_gray.png
+* build\intermediates\bundles\debug\res\layout-sw550dp-large-v13\
+* build\intermediates\bundles\debug\res\layout-sw550dp-large-v13\umeng_socialize_full_alert_dialog.xml
+* build\intermediates\bundles\debug\res\layout-sw550dp-large-v13\umeng_socialize_oauth_dialog.xml
+* build\intermediates\bundles\debug\res\layout-sw550dp-large-v13\umeng_socialize_post_share.xml
+* build\intermediates\bundles\debug\res\layout-sw550dp-large-v13\umeng_socialize_titile_bar.xml
+* build\intermediates\bundles\debug\res\layout\
+* build\intermediates\bundles\debug\res\layout\com_facebook_activity_layout.xml
+* build\intermediates\bundles\debug\res\layout\com_facebook_login_fragment.xml
+* build\intermediates\bundles\debug\res\layout\com_facebook_tooltip_bubble.xml
+* build\intermediates\bundles\debug\res\layout\messenger_button_send_blue_large.xml
+* build\intermediates\bundles\debug\res\layout\messenger_button_send_blue_round.xml
+* build\intermediates\bundles\debug\res\layout\messenger_button_send_blue_small.xml
+* build\intermediates\bundles\debug\res\layout\messenger_button_send_white_large.xml
+* build\intermediates\bundles\debug\res\layout\messenger_button_send_white_round.xml
+* build\intermediates\bundles\debug\res\layout\messenger_button_send_white_small.xml
+* build\intermediates\bundles\debug\res\layout\umeng_bak_at_list.xml
+* build\intermediates\bundles\debug\res\layout\umeng_bak_at_list_item.xml
+* build\intermediates\bundles\debug\res\layout\umeng_bak_platform_item_simple.xml
+* build\intermediates\bundles\debug\res\layout\umeng_bak_platform_selector_dialog.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_base_alert_dialog.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_base_alert_dialog_button.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_bind_select_dialog.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_facebook_login_activity_layout.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_failed_load_page.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_full_alert_dialog.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_full_alert_dialog_item.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_full_curtain.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_oauth_dialog.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_post_share.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_shareboard_item.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_simple_spinner_item.xml
+* build\intermediates\bundles\debug\res\layout\umeng_socialize_titile_bar.xml
+* build\intermediates\bundles\debug\res\values\
+* build\intermediates\bundles\debug\res\values\values.xml
+* build\intermediates\bundles\release\
+* build\intermediates\bundles\release\AndroidManifest.xml
+* build\intermediates\bundles\release\R.txt
+* build\intermediates\bundles\release\aapt\
+* build\intermediates\bundles\release\aapt\AndroidManifest.xml
+* build\intermediates\bundles\release\classes.jar
+* build\intermediates\bundles\release\libs\
+* build\intermediates\bundles\release\libs\SocialSDK_QQZone_3.jar
+* build\intermediates\bundles\release\libs\SocialSDK_WeiXin_1.jar
+* build\intermediates\bundles\release\libs\SocialSDK_WeiXin_2.jar
+* build\intermediates\bundles\release\libs\SocialSDK_whatsapp.jar
+* build\intermediates\bundles\release\libs\bolts-android-1.1.4.jar
+* build\intermediates\bundles\release\libs\httpmime-4.1.3.jar
+* build\intermediates\bundles\release\libs\mta-sdk-1.6.2.jar
+* build\intermediates\bundles\release\libs\open_sdk_r5509.jar
+* build\intermediates\bundles\release\libs\umeng_social_sdk.jar
+* build\intermediates\bundles\release\res\
+* build\intermediates\bundles\release\res\anim\
+* build\intermediates\bundles\release\res\anim\umeng_socialize_fade_in.xml
+* build\intermediates\bundles\release\res\anim\umeng_socialize_fade_out.xml
+* build\intermediates\bundles\release\res\anim\umeng_socialize_shareboard_animation_in.xml
+* build\intermediates\bundles\release\res\anim\umeng_socialize_shareboard_animation_out.xml
+* build\intermediates\bundles\release\res\anim\umeng_socialize_slide_in_from_bottom.xml
+* build\intermediates\bundles\release\res\anim\umeng_socialize_slide_out_from_bottom.xml
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_button_icon.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_close.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\umeng_socialize_light_bar_bg_pad.9.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\umeng_socialize_nav_bar_bg_pad.9.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\umeng_socialize_oauth_check_off.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\umeng_socialize_oauth_check_on.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\umeng_socialize_share_music.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\umeng_socialize_share_pic.png
+* build\intermediates\bundles\release\res\drawable-hdpi-v4\umeng_socialize_share_video.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_button_icon.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_close.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_profile_picture_blank_portrait.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_profile_picture_blank_square.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\bundles\release\res\drawable-mdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_button_icon.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_close.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\bundles\release\res\drawable-xhdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\bundles\release\res\drawable-xxhdpi-v4\
+* build\intermediates\bundles\release\res\drawable-xxhdpi-v4\com_facebook_button_icon.png
+* build\intermediates\bundles\release\res\drawable-xxhdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\bundles\release\res\drawable-xxhdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\bundles\release\res\drawable-xxhdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\bundles\release\res\drawable-xxhdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\bundles\release\res\drawable-xxhdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\bundles\release\res\drawable-xxhdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\bundles\release\res\drawable-xxhdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\bundles\release\res\drawable\
+* build\intermediates\bundles\release\res\drawable\com_facebook_button_background.xml
+* build\intermediates\bundles\release\res\drawable\com_facebook_button_like_background.xml
+* build\intermediates\bundles\release\res\drawable\com_facebook_button_login_silver_background.xml
+* build\intermediates\bundles\release\res\drawable\com_facebook_button_send_background.xml
+* build\intermediates\bundles\release\res\drawable\messenger_button_blue_bg_round.xml
+* build\intermediates\bundles\release\res\drawable\messenger_button_blue_bg_selector.xml
+* build\intermediates\bundles\release\res\drawable\messenger_button_white_bg_round.xml
+* build\intermediates\bundles\release\res\drawable\messenger_button_white_bg_selector.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_action_back.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_action_back_normal.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_action_back_selected.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_at_button.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_at_normal.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_at_selected.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_bind_bg.9.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_button_blue.9.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_button_grey.9.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_button_grey_blue.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_button_login.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_button_login_normal.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_button_login_pressed.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_button_red.9.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_button_red_blue.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_button_white.9.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_button_white_blue.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_default_avatar.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_douban_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_douban_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_evernote.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_evernote_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_facebook.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_facebook_close.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_facebook_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_fetch_image.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_flickr.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_flickr_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_follow_check.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_follow_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_follow_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_foursquare.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_foursquare_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_gmail_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_gmail_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_google.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_instagram_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_instagram_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_kakao.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_kakao_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_laiwang.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_laiwang_dynamic.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_laiwang_dynamic_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_laiwang_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_light_bar_bg.9.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_line.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_line_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_linkedin.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_linkedin_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_location_ic.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_location_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_location_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_nav_bar_bg.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_oauth_check.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_oauth_check_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_oauth_check_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_pinterest.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_pinterest_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_pocket.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_pocket_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_qq_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_qq_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_qzone_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_qzone_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_refersh.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_renren_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_renren_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_search_icon.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_shape_solid_black.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_shape_solid_grey.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_share_to_button.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_share_transparent_corner.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_shareboard_item_background.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_sidebar_normal.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_sidebar_selected.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_sidebar_selector.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_sina_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_sina_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_sms_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_sms_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_back_bt.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_back_bt_normal.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_back_bt_selected.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_right_bt.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_right_bt_normal.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_right_bt_selected.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_tab_button_left.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_tab_button_right.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_tab_left_normal.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_tab_left_pressed.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_tab_right_normal.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_title_tab_right_pressed.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_tumblr.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_tumblr_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_twitter.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_tx_off.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_tx_on.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_wechat.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_wechat_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_whatsapp.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_whatsapp_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_window_shadow_pad.xml
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_wxcircle.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_wxcircle_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_x_button.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_yixin.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_yixin_circle.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_yixin_circle_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_yixin_gray.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_ynote.png
+* build\intermediates\bundles\release\res\drawable\umeng_socialize_ynote_gray.png
+* build\intermediates\bundles\release\res\layout-sw550dp-large-v13\
+* build\intermediates\bundles\release\res\layout-sw550dp-large-v13\umeng_socialize_full_alert_dialog.xml
+* build\intermediates\bundles\release\res\layout-sw550dp-large-v13\umeng_socialize_oauth_dialog.xml
+* build\intermediates\bundles\release\res\layout-sw550dp-large-v13\umeng_socialize_post_share.xml
+* build\intermediates\bundles\release\res\layout-sw550dp-large-v13\umeng_socialize_titile_bar.xml
+* build\intermediates\bundles\release\res\layout\
+* build\intermediates\bundles\release\res\layout\com_facebook_activity_layout.xml
+* build\intermediates\bundles\release\res\layout\com_facebook_login_fragment.xml
+* build\intermediates\bundles\release\res\layout\com_facebook_tooltip_bubble.xml
+* build\intermediates\bundles\release\res\layout\messenger_button_send_blue_large.xml
+* build\intermediates\bundles\release\res\layout\messenger_button_send_blue_round.xml
+* build\intermediates\bundles\release\res\layout\messenger_button_send_blue_small.xml
+* build\intermediates\bundles\release\res\layout\messenger_button_send_white_large.xml
+* build\intermediates\bundles\release\res\layout\messenger_button_send_white_round.xml
+* build\intermediates\bundles\release\res\layout\messenger_button_send_white_small.xml
+* build\intermediates\bundles\release\res\layout\umeng_bak_at_list.xml
+* build\intermediates\bundles\release\res\layout\umeng_bak_at_list_item.xml
+* build\intermediates\bundles\release\res\layout\umeng_bak_platform_item_simple.xml
+* build\intermediates\bundles\release\res\layout\umeng_bak_platform_selector_dialog.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_base_alert_dialog.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_base_alert_dialog_button.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_bind_select_dialog.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_facebook_login_activity_layout.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_failed_load_page.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_full_alert_dialog.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_full_alert_dialog_item.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_full_curtain.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_oauth_dialog.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_post_share.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_shareboard_item.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_simple_spinner_item.xml
+* build\intermediates\bundles\release\res\layout\umeng_socialize_titile_bar.xml
+* build\intermediates\bundles\release\res\values\
+* build\intermediates\bundles\release\res\values\values.xml
+* build\intermediates\classes\
+* build\intermediates\classes\debug\
+* build\intermediates\classes\debug\com\
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\BuildConfig.class
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\R$anim.class
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\R$attr.class
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\R$color.class
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\R$dimen.class
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\R$drawable.class
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\R$id.class
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\R$layout.class
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\R$string.class
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\R$style.class
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\R$styleable.class
+* build\intermediates\classes\debug\com\umeng_social_sdk_res_lib\R.class
+* build\intermediates\classes\release\
+* build\intermediates\classes\release\com\
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\BuildConfig.class
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\R$anim.class
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\R$attr.class
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\R$color.class
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\R$dimen.class
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\R$drawable.class
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\R$id.class
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\R$layout.class
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\R$string.class
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\R$style.class
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\R$styleable.class
+* build\intermediates\classes\release\com\umeng_social_sdk_res_lib\R.class
+* build\intermediates\exploded-aar\
+* build\intermediates\exploded-aar\com.android.support\
+* build\intermediates\exploded-aar\com.android.support\support-v4\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aapt\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aapt\AndroidManifest.xml
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\support\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\support\v4\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\support\v4\media\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\support\v4\media\MediaMetadataCompat.aidl
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\support\v4\media\RatingCompat.aidl
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\support\v4\media\session\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\support\v4\media\session\MediaSessionCompat.aidl
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\support\v4\media\session\ParcelableVolumeInfo.aidl
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\support\v4\media\session\PlaybackStateCompat.aidl
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\support\v4\os\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\aidl\android\support\v4\os\ResultReceiver.aidl
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\annotations.zip
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\
+* build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar
+* build\intermediates\incremental\
+* build\intermediates\incremental\compileDebugAidl\
+* build\intermediates\incremental\compileDebugAidl\dependency.store
+* build\intermediates\incremental\compileDebugAndroidTestAidl\
+* build\intermediates\incremental\compileDebugAndroidTestAidl\dependency.store
+* build\intermediates\incremental\compileReleaseAidl\
+* build\intermediates\incremental\compileReleaseAidl\dependency.store
+* build\intermediates\incremental\mergeDebugAndroidTestAssets\
+* build\intermediates\incremental\mergeDebugAndroidTestAssets\merger.xml
+* build\intermediates\incremental\mergeDebugAndroidTestResources\
+* build\intermediates\incremental\mergeDebugAndroidTestResources\merger.xml
+* build\intermediates\incremental\mergeDebugAndroidTestShaders\
+* build\intermediates\incremental\mergeDebugAndroidTestShaders\merger.xml
+* build\intermediates\incremental\mergeDebugAssets\
+* build\intermediates\incremental\mergeDebugAssets\merger.xml
+* build\intermediates\incremental\mergeDebugJniLibFolders\
+* build\intermediates\incremental\mergeDebugJniLibFolders\merger.xml
+* build\intermediates\incremental\mergeDebugResources\
+* build\intermediates\incremental\mergeDebugResources\merger.xml
+* build\intermediates\incremental\mergeDebugShaders\
+* build\intermediates\incremental\mergeDebugShaders\merger.xml
+* build\intermediates\incremental\mergeReleaseAssets\
+* build\intermediates\incremental\mergeReleaseAssets\merger.xml
+* build\intermediates\incremental\mergeReleaseJniLibFolders\
+* build\intermediates\incremental\mergeReleaseJniLibFolders\merger.xml
+* build\intermediates\incremental\mergeReleaseResources\
+* build\intermediates\incremental\mergeReleaseResources\merger.xml
+* build\intermediates\incremental\mergeReleaseShaders\
+* build\intermediates\incremental\mergeReleaseShaders\merger.xml
+* build\intermediates\incremental\packageDebugResources\
+* build\intermediates\incremental\packageDebugResources\merger.xml
+* build\intermediates\incremental\packageReleaseResources\
+* build\intermediates\incremental\packageReleaseResources\merger.xml
+* build\intermediates\manifest\
+* build\intermediates\manifest\androidTest\
+* build\intermediates\manifest\androidTest\debug\
+* build\intermediates\manifest\androidTest\debug\AndroidManifest.xml
+* build\intermediates\res\
+* build\intermediates\res\merged\
+* build\intermediates\res\merged\androidTest\
+* build\intermediates\res\merged\androidTest\debug\
+* build\intermediates\res\merged\androidTest\debug\anim\
+* build\intermediates\res\merged\androidTest\debug\anim\umeng_socialize_fade_in.xml
+* build\intermediates\res\merged\androidTest\debug\anim\umeng_socialize_fade_out.xml
+* build\intermediates\res\merged\androidTest\debug\anim\umeng_socialize_shareboard_animation_in.xml
+* build\intermediates\res\merged\androidTest\debug\anim\umeng_socialize_shareboard_animation_out.xml
+* build\intermediates\res\merged\androidTest\debug\anim\umeng_socialize_slide_in_from_bottom.xml
+* build\intermediates\res\merged\androidTest\debug\anim\umeng_socialize_slide_out_from_bottom.xml
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_close.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\umeng_socialize_light_bar_bg_pad.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\umeng_socialize_nav_bar_bg_pad.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\umeng_socialize_oauth_check_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\umeng_socialize_oauth_check_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\umeng_socialize_share_music.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\umeng_socialize_share_pic.png
+* build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\umeng_socialize_share_video.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_close.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_profile_picture_blank_portrait.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_profile_picture_blank_square.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_close.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\
+* build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\androidTest\debug\drawable\
+* build\intermediates\res\merged\androidTest\debug\drawable\com_facebook_button_background.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\com_facebook_button_like_background.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\com_facebook_button_login_silver_background.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\com_facebook_button_send_background.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\messenger_button_blue_bg_round.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\messenger_button_blue_bg_selector.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\messenger_button_white_bg_round.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\messenger_button_white_bg_selector.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_action_back.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_action_back_normal.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_action_back_selected.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_at_button.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_at_normal.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_at_selected.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_bind_bg.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_button_blue.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_button_grey.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_button_grey_blue.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_button_login.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_button_login_normal.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_button_login_pressed.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_button_red.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_button_red_blue.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_button_white.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_button_white_blue.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_default_avatar.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_douban_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_douban_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_evernote.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_evernote_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_facebook.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_facebook_close.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_facebook_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_fetch_image.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_flickr.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_flickr_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_follow_check.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_follow_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_follow_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_foursquare.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_foursquare_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_gmail_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_gmail_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_google.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_instagram_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_instagram_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_kakao.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_kakao_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_laiwang.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_laiwang_dynamic.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_laiwang_dynamic_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_laiwang_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_light_bar_bg.9.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_line.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_line_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_linkedin.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_linkedin_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_location_ic.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_location_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_location_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_nav_bar_bg.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_oauth_check.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_oauth_check_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_oauth_check_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_pinterest.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_pinterest_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_pocket.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_pocket_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_qq_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_qq_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_qzone_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_qzone_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_refersh.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_renren_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_renren_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_search_icon.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_shape_solid_black.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_shape_solid_grey.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_share_to_button.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_share_transparent_corner.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_shareboard_item_background.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_sidebar_normal.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_sidebar_selected.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_sidebar_selector.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_sina_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_sina_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_sms_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_sms_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_back_bt.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_back_bt_normal.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_back_bt_selected.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_right_bt.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_right_bt_normal.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_right_bt_selected.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_tab_button_left.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_tab_button_right.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_tab_left_normal.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_tab_left_pressed.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_tab_right_normal.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_title_tab_right_pressed.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_tumblr.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_tumblr_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_twitter.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_tx_off.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_tx_on.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_wechat.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_wechat_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_whatsapp.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_whatsapp_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_window_shadow_pad.xml
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_wxcircle.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_wxcircle_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_x_button.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_yixin.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_yixin_circle.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_yixin_circle_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_yixin_gray.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_ynote.png
+* build\intermediates\res\merged\androidTest\debug\drawable\umeng_socialize_ynote_gray.png
+* build\intermediates\res\merged\androidTest\debug\layout-sw550dp-large-v13\
+* build\intermediates\res\merged\androidTest\debug\layout-sw550dp-large-v13\umeng_socialize_full_alert_dialog.xml
+* build\intermediates\res\merged\androidTest\debug\layout-sw550dp-large-v13\umeng_socialize_oauth_dialog.xml
+* build\intermediates\res\merged\androidTest\debug\layout-sw550dp-large-v13\umeng_socialize_post_share.xml
+* build\intermediates\res\merged\androidTest\debug\layout-sw550dp-large-v13\umeng_socialize_titile_bar.xml
+* build\intermediates\res\merged\androidTest\debug\layout\
+* build\intermediates\res\merged\androidTest\debug\layout\com_facebook_activity_layout.xml
+* build\intermediates\res\merged\androidTest\debug\layout\com_facebook_login_fragment.xml
+* build\intermediates\res\merged\androidTest\debug\layout\com_facebook_tooltip_bubble.xml
+* build\intermediates\res\merged\androidTest\debug\layout\messenger_button_send_blue_large.xml
+* build\intermediates\res\merged\androidTest\debug\layout\messenger_button_send_blue_round.xml
+* build\intermediates\res\merged\androidTest\debug\layout\messenger_button_send_blue_small.xml
+* build\intermediates\res\merged\androidTest\debug\layout\messenger_button_send_white_large.xml
+* build\intermediates\res\merged\androidTest\debug\layout\messenger_button_send_white_round.xml
+* build\intermediates\res\merged\androidTest\debug\layout\messenger_button_send_white_small.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_bak_at_list.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_bak_at_list_item.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_bak_platform_item_simple.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_bak_platform_selector_dialog.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_base_alert_dialog.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_base_alert_dialog_button.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_bind_select_dialog.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_facebook_login_activity_layout.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_failed_load_page.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_full_alert_dialog.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_full_alert_dialog_item.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_full_curtain.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_oauth_dialog.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_post_share.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_shareboard_item.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_simple_spinner_item.xml
+* build\intermediates\res\merged\androidTest\debug\layout\umeng_socialize_titile_bar.xml
+* build\intermediates\res\merged\androidTest\debug\values\
+* build\intermediates\res\merged\androidTest\debug\values\values.xml
+* build\intermediates\res\merged\debug\
+* build\intermediates\res\merged\debug\anim\
+* build\intermediates\res\merged\debug\anim\umeng_socialize_fade_in.xml
+* build\intermediates\res\merged\debug\anim\umeng_socialize_fade_out.xml
+* build\intermediates\res\merged\debug\anim\umeng_socialize_shareboard_animation_in.xml
+* build\intermediates\res\merged\debug\anim\umeng_socialize_shareboard_animation_out.xml
+* build\intermediates\res\merged\debug\anim\umeng_socialize_slide_in_from_bottom.xml
+* build\intermediates\res\merged\debug\anim\umeng_socialize_slide_out_from_bottom.xml
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_close.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\umeng_socialize_light_bar_bg_pad.9.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\umeng_socialize_nav_bar_bg_pad.9.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\umeng_socialize_oauth_check_off.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\umeng_socialize_oauth_check_on.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\umeng_socialize_share_music.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\umeng_socialize_share_pic.png
+* build\intermediates\res\merged\debug\drawable-hdpi-v4\umeng_socialize_share_video.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_close.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_profile_picture_blank_portrait.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_profile_picture_blank_square.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\debug\drawable-mdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_close.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\debug\drawable-xhdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\debug\drawable-xxhdpi-v4\
+* build\intermediates\res\merged\debug\drawable-xxhdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\debug\drawable-xxhdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\debug\drawable-xxhdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\debug\drawable-xxhdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\debug\drawable-xxhdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\debug\drawable-xxhdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\debug\drawable-xxhdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\debug\drawable-xxhdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\debug\drawable\
+* build\intermediates\res\merged\debug\drawable\com_facebook_button_background.xml
+* build\intermediates\res\merged\debug\drawable\com_facebook_button_like_background.xml
+* build\intermediates\res\merged\debug\drawable\com_facebook_button_login_silver_background.xml
+* build\intermediates\res\merged\debug\drawable\com_facebook_button_send_background.xml
+* build\intermediates\res\merged\debug\drawable\messenger_button_blue_bg_round.xml
+* build\intermediates\res\merged\debug\drawable\messenger_button_blue_bg_selector.xml
+* build\intermediates\res\merged\debug\drawable\messenger_button_white_bg_round.xml
+* build\intermediates\res\merged\debug\drawable\messenger_button_white_bg_selector.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_action_back.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_action_back_normal.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_action_back_selected.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_at_button.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_at_normal.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_at_selected.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_bind_bg.9.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_button_blue.9.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_button_grey.9.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_button_grey_blue.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_button_login.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_button_login_normal.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_button_login_pressed.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_button_red.9.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_button_red_blue.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_button_white.9.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_button_white_blue.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_default_avatar.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_douban_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_douban_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_evernote.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_evernote_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_facebook.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_facebook_close.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_facebook_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_fetch_image.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_flickr.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_flickr_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_follow_check.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_follow_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_follow_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_foursquare.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_foursquare_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_gmail_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_gmail_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_google.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_instagram_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_instagram_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_kakao.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_kakao_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_laiwang.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_laiwang_dynamic.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_laiwang_dynamic_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_laiwang_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_light_bar_bg.9.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_line.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_line_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_linkedin.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_linkedin_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_location_ic.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_location_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_location_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_nav_bar_bg.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_oauth_check.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_oauth_check_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_oauth_check_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_pinterest.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_pinterest_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_pocket.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_pocket_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_qq_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_qq_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_qzone_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_qzone_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_refersh.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_renren_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_renren_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_search_icon.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_shape_solid_black.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_shape_solid_grey.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_share_to_button.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_share_transparent_corner.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_shareboard_item_background.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_sidebar_normal.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_sidebar_selected.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_sidebar_selector.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_sina_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_sina_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_sms_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_sms_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_back_bt.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_back_bt_normal.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_back_bt_selected.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_right_bt.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_right_bt_normal.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_right_bt_selected.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_tab_button_left.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_tab_button_right.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_tab_left_normal.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_tab_left_pressed.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_tab_right_normal.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_title_tab_right_pressed.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_tumblr.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_tumblr_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_twitter.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_tx_off.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_tx_on.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_wechat.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_wechat_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_whatsapp.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_whatsapp_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_window_shadow_pad.xml
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_wxcircle.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_wxcircle_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_x_button.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_yixin.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_yixin_circle.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_yixin_circle_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_yixin_gray.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_ynote.png
+* build\intermediates\res\merged\debug\drawable\umeng_socialize_ynote_gray.png
+* build\intermediates\res\merged\debug\layout-sw550dp-large-v13\
+* build\intermediates\res\merged\debug\layout-sw550dp-large-v13\umeng_socialize_full_alert_dialog.xml
+* build\intermediates\res\merged\debug\layout-sw550dp-large-v13\umeng_socialize_oauth_dialog.xml
+* build\intermediates\res\merged\debug\layout-sw550dp-large-v13\umeng_socialize_post_share.xml
+* build\intermediates\res\merged\debug\layout-sw550dp-large-v13\umeng_socialize_titile_bar.xml
+* build\intermediates\res\merged\debug\layout\
+* build\intermediates\res\merged\debug\layout\com_facebook_activity_layout.xml
+* build\intermediates\res\merged\debug\layout\com_facebook_login_fragment.xml
+* build\intermediates\res\merged\debug\layout\com_facebook_tooltip_bubble.xml
+* build\intermediates\res\merged\debug\layout\messenger_button_send_blue_large.xml
+* build\intermediates\res\merged\debug\layout\messenger_button_send_blue_round.xml
+* build\intermediates\res\merged\debug\layout\messenger_button_send_blue_small.xml
+* build\intermediates\res\merged\debug\layout\messenger_button_send_white_large.xml
+* build\intermediates\res\merged\debug\layout\messenger_button_send_white_round.xml
+* build\intermediates\res\merged\debug\layout\messenger_button_send_white_small.xml
+* build\intermediates\res\merged\debug\layout\umeng_bak_at_list.xml
+* build\intermediates\res\merged\debug\layout\umeng_bak_at_list_item.xml
+* build\intermediates\res\merged\debug\layout\umeng_bak_platform_item_simple.xml
+* build\intermediates\res\merged\debug\layout\umeng_bak_platform_selector_dialog.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_base_alert_dialog.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_base_alert_dialog_button.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_bind_select_dialog.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_facebook_login_activity_layout.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_failed_load_page.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_full_alert_dialog.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_full_alert_dialog_item.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_full_curtain.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_oauth_dialog.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_post_share.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_shareboard_item.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_simple_spinner_item.xml
+* build\intermediates\res\merged\debug\layout\umeng_socialize_titile_bar.xml
+* build\intermediates\res\merged\debug\values\
+* build\intermediates\res\merged\debug\values\values.xml
+* build\intermediates\res\merged\release\
+* build\intermediates\res\merged\release\anim\
+* build\intermediates\res\merged\release\anim\umeng_socialize_fade_in.xml
+* build\intermediates\res\merged\release\anim\umeng_socialize_fade_out.xml
+* build\intermediates\res\merged\release\anim\umeng_socialize_shareboard_animation_in.xml
+* build\intermediates\res\merged\release\anim\umeng_socialize_shareboard_animation_out.xml
+* build\intermediates\res\merged\release\anim\umeng_socialize_slide_in_from_bottom.xml
+* build\intermediates\res\merged\release\anim\umeng_socialize_slide_out_from_bottom.xml
+* build\intermediates\res\merged\release\drawable-hdpi-v4\
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_close.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\umeng_socialize_light_bar_bg_pad.9.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\umeng_socialize_nav_bar_bg_pad.9.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\umeng_socialize_oauth_check_off.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\umeng_socialize_oauth_check_on.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\umeng_socialize_share_music.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\umeng_socialize_share_pic.png
+* build\intermediates\res\merged\release\drawable-hdpi-v4\umeng_socialize_share_video.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_close.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_profile_picture_blank_portrait.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_profile_picture_blank_square.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\release\drawable-mdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_close.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_tooltip_black_background.9.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_tooltip_black_bottomnub.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_tooltip_black_topnub.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_tooltip_black_xout.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_tooltip_blue_background.9.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_tooltip_blue_bottomnub.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_tooltip_blue_topnub.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\com_facebook_tooltip_blue_xout.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\release\drawable-xhdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\release\drawable-xxhdpi-v4\
+* build\intermediates\res\merged\release\drawable-xxhdpi-v4\com_facebook_button_icon.png
+* build\intermediates\res\merged\release\drawable-xxhdpi-v4\com_facebook_button_like_icon_selected.png
+* build\intermediates\res\merged\release\drawable-xxhdpi-v4\com_facebook_button_send_icon.png
+* build\intermediates\res\merged\release\drawable-xxhdpi-v4\messenger_bubble_large_blue.png
+* build\intermediates\res\merged\release\drawable-xxhdpi-v4\messenger_bubble_large_white.png
+* build\intermediates\res\merged\release\drawable-xxhdpi-v4\messenger_bubble_small_blue.png
+* build\intermediates\res\merged\release\drawable-xxhdpi-v4\messenger_bubble_small_white.png
+* build\intermediates\res\merged\release\drawable-xxhdpi-v4\messenger_button_send_round_shadow.png
+* build\intermediates\res\merged\release\drawable\
+* build\intermediates\res\merged\release\drawable\com_facebook_button_background.xml
+* build\intermediates\res\merged\release\drawable\com_facebook_button_like_background.xml
+* build\intermediates\res\merged\release\drawable\com_facebook_button_login_silver_background.xml
+* build\intermediates\res\merged\release\drawable\com_facebook_button_send_background.xml
+* build\intermediates\res\merged\release\drawable\messenger_button_blue_bg_round.xml
+* build\intermediates\res\merged\release\drawable\messenger_button_blue_bg_selector.xml
+* build\intermediates\res\merged\release\drawable\messenger_button_white_bg_round.xml
+* build\intermediates\res\merged\release\drawable\messenger_button_white_bg_selector.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_action_back.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_action_back_normal.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_action_back_selected.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_at_button.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_at_normal.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_at_selected.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_bind_bg.9.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_button_blue.9.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_button_grey.9.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_button_grey_blue.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_button_login.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_button_login_normal.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_button_login_pressed.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_button_red.9.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_button_red_blue.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_button_white.9.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_button_white_blue.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_default_avatar.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_douban_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_douban_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_evernote.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_evernote_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_facebook.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_facebook_close.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_facebook_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_fetch_image.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_flickr.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_flickr_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_follow_check.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_follow_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_follow_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_foursquare.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_foursquare_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_gmail_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_gmail_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_google.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_instagram_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_instagram_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_kakao.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_kakao_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_laiwang.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_laiwang_dynamic.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_laiwang_dynamic_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_laiwang_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_light_bar_bg.9.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_line.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_line_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_linkedin.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_linkedin_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_location_ic.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_location_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_location_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_nav_bar_bg.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_oauth_check.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_oauth_check_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_oauth_check_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_pinterest.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_pinterest_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_pocket.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_pocket_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_qq_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_qq_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_qzone_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_qzone_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_refersh.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_renren_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_renren_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_search_icon.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_shape_solid_black.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_shape_solid_grey.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_share_to_button.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_share_transparent_corner.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_shareboard_item_background.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_sidebar_normal.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_sidebar_selected.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_sidebar_selector.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_sina_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_sina_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_sms_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_sms_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_back_bt.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_back_bt_normal.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_back_bt_selected.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_right_bt.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_right_bt_normal.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_right_bt_selected.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_tab_button_left.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_tab_button_right.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_tab_left_normal.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_tab_left_pressed.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_tab_right_normal.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_title_tab_right_pressed.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_tumblr.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_tumblr_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_twitter.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_tx_off.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_tx_on.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_wechat.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_wechat_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_whatsapp.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_whatsapp_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_window_shadow_pad.xml
+* build\intermediates\res\merged\release\drawable\umeng_socialize_wxcircle.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_wxcircle_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_x_button.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_yixin.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_yixin_circle.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_yixin_circle_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_yixin_gray.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_ynote.png
+* build\intermediates\res\merged\release\drawable\umeng_socialize_ynote_gray.png
+* build\intermediates\res\merged\release\layout-sw550dp-large-v13\
+* build\intermediates\res\merged\release\layout-sw550dp-large-v13\umeng_socialize_full_alert_dialog.xml
+* build\intermediates\res\merged\release\layout-sw550dp-large-v13\umeng_socialize_oauth_dialog.xml
+* build\intermediates\res\merged\release\layout-sw550dp-large-v13\umeng_socialize_post_share.xml
+* build\intermediates\res\merged\release\layout-sw550dp-large-v13\umeng_socialize_titile_bar.xml
+* build\intermediates\res\merged\release\layout\
+* build\intermediates\res\merged\release\layout\com_facebook_activity_layout.xml
+* build\intermediates\res\merged\release\layout\com_facebook_login_fragment.xml
+* build\intermediates\res\merged\release\layout\com_facebook_tooltip_bubble.xml
+* build\intermediates\res\merged\release\layout\messenger_button_send_blue_large.xml
+* build\intermediates\res\merged\release\layout\messenger_button_send_blue_round.xml
+* build\intermediates\res\merged\release\layout\messenger_button_send_blue_small.xml
+* build\intermediates\res\merged\release\layout\messenger_button_send_white_large.xml
+* build\intermediates\res\merged\release\layout\messenger_button_send_white_round.xml
+* build\intermediates\res\merged\release\layout\messenger_button_send_white_small.xml
+* build\intermediates\res\merged\release\layout\umeng_bak_at_list.xml
+* build\intermediates\res\merged\release\layout\umeng_bak_at_list_item.xml
+* build\intermediates\res\merged\release\layout\umeng_bak_platform_item_simple.xml
+* build\intermediates\res\merged\release\layout\umeng_bak_platform_selector_dialog.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_base_alert_dialog.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_base_alert_dialog_button.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_bind_select_dialog.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_facebook_login_activity_layout.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_failed_load_page.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_full_alert_dialog.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_full_alert_dialog_item.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_full_curtain.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_oauth_dialog.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_post_share.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_shareboard_item.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_simple_spinner_item.xml
+* build\intermediates\res\merged\release\layout\umeng_socialize_titile_bar.xml
+* build\intermediates\res\merged\release\values\
+* build\intermediates\res\merged\release\values\values.xml
+* build\intermediates\res\resources-debug-androidTest.ap_
+* build\intermediates\symbols\
+* build\intermediates\symbols\androidTest\
+* build\intermediates\symbols\androidTest\debug\
+* build\intermediates\symbols\androidTest\debug\R.txt
+* build\intermediates\transforms\
+* build\intermediates\transforms\mergeJavaRes\
+* build\intermediates\transforms\mergeJavaRes\debug\
+* build\intermediates\transforms\mergeJavaRes\debug\jars\
+* build\intermediates\transforms\mergeJavaRes\debug\jars\2\
+* build\intermediates\transforms\mergeJavaRes\debug\jars\2\3\
+* build\intermediates\transforms\mergeJavaRes\debug\jars\2\3\main.jar
+* build\intermediates\transforms\mergeJavaRes\release\
+* build\intermediates\transforms\mergeJavaRes\release\jars\
+* build\intermediates\transforms\mergeJavaRes\release\jars\2\
+* build\intermediates\transforms\mergeJavaRes\release\jars\2\3\
+* build\intermediates\transforms\mergeJavaRes\release\jars\2\3\main.jar
+* build\outputs\
+* build\outputs\aar\
+* build\outputs\aar\social_sdk_library_project-debug.aar
+* build\outputs\aar\social_sdk_library_project-release.aar
+* social_sdk_library_project.iml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In Work_Library:
+* AndroidManifest.xml => work_Library\src\main\AndroidManifest.xml
+* assets\ => work_Library\src\main\assets
+* libs\android-async-http-1.4.6.jar => work_Library\libs\android-async-http-1.4.6.jar
+* res\ => work_Library\src\main\res\
+* src\ => work_Library\src\main\java\
+In social_sdk_library_project:
+* libs\bolts-android-1.1.4.jar => social_sdk_library_project\libs\bolts-android-1.1.4.jar
+* libs\httpmime-4.1.3.jar => social_sdk_library_project\libs\httpmime-4.1.3.jar
+* libs\mta-sdk-1.6.2.jar => social_sdk_library_project\libs\mta-sdk-1.6.2.jar
+* libs\open_sdk_r5509.jar => social_sdk_library_project\libs\open_sdk_r5509.jar
+* libs\SocialSDK_QQZone_3.jar => social_sdk_library_project\libs\SocialSDK_QQZone_3.jar
+* libs\SocialSDK_WeiXin_1.jar => social_sdk_library_project\libs\SocialSDK_WeiXin_1.jar
+* libs\SocialSDK_WeiXin_2.jar => social_sdk_library_project\libs\SocialSDK_WeiXin_2.jar
+* libs\SocialSDK_whatsapp.jar => social_sdk_library_project\libs\SocialSDK_whatsapp.jar
+* libs\umeng_social_sdk.jar => social_sdk_library_project\libs\umeng_social_sdk.jar
+* src\ => social_sdk_library_project\src\main\java
+* src\main\AndroidManifest.xml => social_sdk_library_project\src\main\resources\main\AndroidManifest.xml
+* src\main\res\anim\umeng_socialize_fade_in.xml => social_sdk_library_project\src\main\resources\main\res\anim\umeng_socialize_fade_in.xml
+* src\main\res\anim\umeng_socialize_fade_out.xml => social_sdk_library_project\src\main\resources\main\res\anim\umeng_socialize_fade_out.xml
+* src\main\res\anim\umeng_socialize_shareboard_animation_in.xml => social_sdk_library_project\src\main\resources\main\res\anim\umeng_socialize_shareboard_animation_in.xml
+* src\main\res\anim\umeng_socialize_shareboard_animation_out.xml => social_sdk_library_project\src\main\resources\main\res\anim\umeng_socialize_shareboard_animation_out.xml
+* src\main\res\anim\umeng_socialize_slide_in_from_bottom.xml => social_sdk_library_project\src\main\resources\main\res\anim\umeng_socialize_slide_in_from_bottom.xml
+* src\main\res\anim\umeng_socialize_slide_out_from_bottom.xml => social_sdk_library_project\src\main\resources\main\res\anim\umeng_socialize_slide_out_from_bottom.xml
+* src\main\res\drawable-hdpi\com_facebook_button_icon.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_button_icon.png
+* src\main\res\drawable-hdpi\com_facebook_button_like_icon_selected.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_button_like_icon_selected.png
+* src\main\res\drawable-hdpi\com_facebook_button_send_icon.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_button_send_icon.png
+* src\main\res\drawable-hdpi\com_facebook_close.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_close.png
+* src\main\res\drawable-hdpi\com_facebook_tooltip_black_background.9.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_tooltip_black_background.9.png
+* src\main\res\drawable-hdpi\com_facebook_tooltip_black_bottomnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_tooltip_black_bottomnub.png
+* src\main\res\drawable-hdpi\com_facebook_tooltip_black_topnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_tooltip_black_topnub.png
+* src\main\res\drawable-hdpi\com_facebook_tooltip_black_xout.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_tooltip_black_xout.png
+* src\main\res\drawable-hdpi\com_facebook_tooltip_blue_background.9.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_tooltip_blue_background.9.png
+* src\main\res\drawable-hdpi\com_facebook_tooltip_blue_bottomnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_tooltip_blue_bottomnub.png
+* src\main\res\drawable-hdpi\com_facebook_tooltip_blue_topnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_tooltip_blue_topnub.png
+* src\main\res\drawable-hdpi\com_facebook_tooltip_blue_xout.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\com_facebook_tooltip_blue_xout.png
+* src\main\res\drawable-hdpi\messenger_bubble_large_blue.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\messenger_bubble_large_blue.png
+* src\main\res\drawable-hdpi\messenger_bubble_large_white.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\messenger_bubble_large_white.png
+* src\main\res\drawable-hdpi\messenger_bubble_small_blue.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\messenger_bubble_small_blue.png
+* src\main\res\drawable-hdpi\messenger_bubble_small_white.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\messenger_bubble_small_white.png
+* src\main\res\drawable-hdpi\messenger_button_send_round_shadow.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\messenger_button_send_round_shadow.png
+* src\main\res\drawable-hdpi\umeng_socialize_light_bar_bg_pad.9.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\umeng_socialize_light_bar_bg_pad.9.png
+* src\main\res\drawable-hdpi\umeng_socialize_nav_bar_bg_pad.9.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\umeng_socialize_nav_bar_bg_pad.9.png
+* src\main\res\drawable-hdpi\umeng_socialize_oauth_check_off.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\umeng_socialize_oauth_check_off.png
+* src\main\res\drawable-hdpi\umeng_socialize_oauth_check_on.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\umeng_socialize_oauth_check_on.png
+* src\main\res\drawable-hdpi\umeng_socialize_share_music.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\umeng_socialize_share_music.png
+* src\main\res\drawable-hdpi\umeng_socialize_share_pic.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\umeng_socialize_share_pic.png
+* src\main\res\drawable-hdpi\umeng_socialize_share_video.png => social_sdk_library_project\src\main\resources\main\res\drawable-hdpi\umeng_socialize_share_video.png
+* src\main\res\drawable-mdpi\com_facebook_button_icon.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_button_icon.png
+* src\main\res\drawable-mdpi\com_facebook_button_like_icon_selected.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_button_like_icon_selected.png
+* src\main\res\drawable-mdpi\com_facebook_button_send_icon.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_button_send_icon.png
+* src\main\res\drawable-mdpi\com_facebook_close.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_close.png
+* src\main\res\drawable-mdpi\com_facebook_profile_picture_blank_portrait.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_profile_picture_blank_portrait.png
+* src\main\res\drawable-mdpi\com_facebook_profile_picture_blank_square.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_profile_picture_blank_square.png
+* src\main\res\drawable-mdpi\com_facebook_tooltip_black_background.9.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_tooltip_black_background.9.png
+* src\main\res\drawable-mdpi\com_facebook_tooltip_black_bottomnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_tooltip_black_bottomnub.png
+* src\main\res\drawable-mdpi\com_facebook_tooltip_black_topnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_tooltip_black_topnub.png
+* src\main\res\drawable-mdpi\com_facebook_tooltip_black_xout.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_tooltip_black_xout.png
+* src\main\res\drawable-mdpi\com_facebook_tooltip_blue_background.9.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_tooltip_blue_background.9.png
+* src\main\res\drawable-mdpi\com_facebook_tooltip_blue_bottomnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_tooltip_blue_bottomnub.png
+* src\main\res\drawable-mdpi\com_facebook_tooltip_blue_topnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_tooltip_blue_topnub.png
+* src\main\res\drawable-mdpi\com_facebook_tooltip_blue_xout.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\com_facebook_tooltip_blue_xout.png
+* src\main\res\drawable-mdpi\messenger_bubble_large_blue.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\messenger_bubble_large_blue.png
+* src\main\res\drawable-mdpi\messenger_bubble_large_white.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\messenger_bubble_large_white.png
+* src\main\res\drawable-mdpi\messenger_bubble_small_blue.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\messenger_bubble_small_blue.png
+* src\main\res\drawable-mdpi\messenger_bubble_small_white.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\messenger_bubble_small_white.png
+* src\main\res\drawable-mdpi\messenger_button_send_round_shadow.png => social_sdk_library_project\src\main\resources\main\res\drawable-mdpi\messenger_button_send_round_shadow.png
+* src\main\res\drawable-xhdpi\com_facebook_button_icon.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_button_icon.png
+* src\main\res\drawable-xhdpi\com_facebook_button_like_icon_selected.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_button_like_icon_selected.png
+* src\main\res\drawable-xhdpi\com_facebook_button_send_icon.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_button_send_icon.png
+* src\main\res\drawable-xhdpi\com_facebook_close.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_close.png
+* src\main\res\drawable-xhdpi\com_facebook_tooltip_black_background.9.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_tooltip_black_background.9.png
+* src\main\res\drawable-xhdpi\com_facebook_tooltip_black_bottomnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_tooltip_black_bottomnub.png
+* src\main\res\drawable-xhdpi\com_facebook_tooltip_black_topnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_tooltip_black_topnub.png
+* src\main\res\drawable-xhdpi\com_facebook_tooltip_black_xout.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_tooltip_black_xout.png
+* src\main\res\drawable-xhdpi\com_facebook_tooltip_blue_background.9.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_tooltip_blue_background.9.png
+* src\main\res\drawable-xhdpi\com_facebook_tooltip_blue_bottomnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_tooltip_blue_bottomnub.png
+* src\main\res\drawable-xhdpi\com_facebook_tooltip_blue_topnub.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_tooltip_blue_topnub.png
+* src\main\res\drawable-xhdpi\com_facebook_tooltip_blue_xout.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\com_facebook_tooltip_blue_xout.png
+* src\main\res\drawable-xhdpi\messenger_bubble_large_blue.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\messenger_bubble_large_blue.png
+* src\main\res\drawable-xhdpi\messenger_bubble_large_white.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\messenger_bubble_large_white.png
+* src\main\res\drawable-xhdpi\messenger_bubble_small_blue.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\messenger_bubble_small_blue.png
+* src\main\res\drawable-xhdpi\messenger_bubble_small_white.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\messenger_bubble_small_white.png
+* src\main\res\drawable-xhdpi\messenger_button_send_round_shadow.png => social_sdk_library_project\src\main\resources\main\res\drawable-xhdpi\messenger_button_send_round_shadow.png
+* src\main\res\drawable-xxhdpi\com_facebook_button_icon.png => social_sdk_library_project\src\main\resources\main\res\drawable-xxhdpi\com_facebook_button_icon.png
+* src\main\res\drawable-xxhdpi\com_facebook_button_like_icon_selected.png => social_sdk_library_project\src\main\resources\main\res\drawable-xxhdpi\com_facebook_button_like_icon_selected.png
+* src\main\res\drawable-xxhdpi\com_facebook_button_send_icon.png => social_sdk_library_project\src\main\resources\main\res\drawable-xxhdpi\com_facebook_button_send_icon.png
+* src\main\res\drawable-xxhdpi\messenger_bubble_large_blue.png => social_sdk_library_project\src\main\resources\main\res\drawable-xxhdpi\messenger_bubble_large_blue.png
+* src\main\res\drawable-xxhdpi\messenger_bubble_large_white.png => social_sdk_library_project\src\main\resources\main\res\drawable-xxhdpi\messenger_bubble_large_white.png
+* src\main\res\drawable-xxhdpi\messenger_bubble_small_blue.png => social_sdk_library_project\src\main\resources\main\res\drawable-xxhdpi\messenger_bubble_small_blue.png
+* src\main\res\drawable-xxhdpi\messenger_bubble_small_white.png => social_sdk_library_project\src\main\resources\main\res\drawable-xxhdpi\messenger_bubble_small_white.png
+* src\main\res\drawable-xxhdpi\messenger_button_send_round_shadow.png => social_sdk_library_project\src\main\resources\main\res\drawable-xxhdpi\messenger_button_send_round_shadow.png
+* src\main\res\drawable\com_facebook_button_background.xml => social_sdk_library_project\src\main\resources\main\res\drawable\com_facebook_button_background.xml
+* src\main\res\drawable\com_facebook_button_like_background.xml => social_sdk_library_project\src\main\resources\main\res\drawable\com_facebook_button_like_background.xml
+* src\main\res\drawable\com_facebook_button_login_silver_background.xml => social_sdk_library_project\src\main\resources\main\res\drawable\com_facebook_button_login_silver_background.xml
+* src\main\res\drawable\com_facebook_button_send_background.xml => social_sdk_library_project\src\main\resources\main\res\drawable\com_facebook_button_send_background.xml
+* src\main\res\drawable\messenger_button_blue_bg_round.xml => social_sdk_library_project\src\main\resources\main\res\drawable\messenger_button_blue_bg_round.xml
+* src\main\res\drawable\messenger_button_blue_bg_selector.xml => social_sdk_library_project\src\main\resources\main\res\drawable\messenger_button_blue_bg_selector.xml
+* src\main\res\drawable\messenger_button_white_bg_round.xml => social_sdk_library_project\src\main\resources\main\res\drawable\messenger_button_white_bg_round.xml
+* src\main\res\drawable\messenger_button_white_bg_selector.xml => social_sdk_library_project\src\main\resources\main\res\drawable\messenger_button_white_bg_selector.xml
+* src\main\res\drawable\umeng_socialize_action_back.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_action_back.xml
+* src\main\res\drawable\umeng_socialize_action_back_normal.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_action_back_normal.png
+* src\main\res\drawable\umeng_socialize_action_back_selected.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_action_back_selected.png
+* src\main\res\drawable\umeng_socialize_at_button.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_at_button.xml
+* src\main\res\drawable\umeng_socialize_at_normal.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_at_normal.png
+* src\main\res\drawable\umeng_socialize_at_selected.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_at_selected.png
+* src\main\res\drawable\umeng_socialize_bind_bg.9.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_bind_bg.9.png
+* src\main\res\drawable\umeng_socialize_button_blue.9.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_button_blue.9.png
+* src\main\res\drawable\umeng_socialize_button_grey.9.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_button_grey.9.png
+* src\main\res\drawable\umeng_socialize_button_grey_blue.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_button_grey_blue.xml
+* src\main\res\drawable\umeng_socialize_button_login.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_button_login.xml
+* src\main\res\drawable\umeng_socialize_button_login_normal.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_button_login_normal.png
+* src\main\res\drawable\umeng_socialize_button_login_pressed.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_button_login_pressed.png
+* src\main\res\drawable\umeng_socialize_button_red.9.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_button_red.9.png
+* src\main\res\drawable\umeng_socialize_button_red_blue.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_button_red_blue.xml
+* src\main\res\drawable\umeng_socialize_button_white.9.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_button_white.9.png
+* src\main\res\drawable\umeng_socialize_button_white_blue.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_button_white_blue.xml
+* src\main\res\drawable\umeng_socialize_default_avatar.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_default_avatar.png
+* src\main\res\drawable\umeng_socialize_douban_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_douban_off.png
+* src\main\res\drawable\umeng_socialize_douban_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_douban_on.png
+* src\main\res\drawable\umeng_socialize_evernote.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_evernote.png
+* src\main\res\drawable\umeng_socialize_evernote_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_evernote_gray.png
+* src\main\res\drawable\umeng_socialize_facebook.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_facebook.png
+* src\main\res\drawable\umeng_socialize_facebook_close.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_facebook_close.png
+* src\main\res\drawable\umeng_socialize_facebook_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_facebook_off.png
+* src\main\res\drawable\umeng_socialize_fetch_image.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_fetch_image.png
+* src\main\res\drawable\umeng_socialize_flickr.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_flickr.png
+* src\main\res\drawable\umeng_socialize_flickr_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_flickr_gray.png
+* src\main\res\drawable\umeng_socialize_follow_check.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_follow_check.xml
+* src\main\res\drawable\umeng_socialize_follow_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_follow_off.png
+* src\main\res\drawable\umeng_socialize_follow_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_follow_on.png
+* src\main\res\drawable\umeng_socialize_foursquare.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_foursquare.png
+* src\main\res\drawable\umeng_socialize_foursquare_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_foursquare_gray.png
+* src\main\res\drawable\umeng_socialize_gmail_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_gmail_off.png
+* src\main\res\drawable\umeng_socialize_gmail_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_gmail_on.png
+* src\main\res\drawable\umeng_socialize_google.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_google.png
+* src\main\res\drawable\umeng_socialize_instagram_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_instagram_off.png
+* src\main\res\drawable\umeng_socialize_instagram_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_instagram_on.png
+* src\main\res\drawable\umeng_socialize_kakao.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_kakao.png
+* src\main\res\drawable\umeng_socialize_kakao_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_kakao_gray.png
+* src\main\res\drawable\umeng_socialize_laiwang.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_laiwang.png
+* src\main\res\drawable\umeng_socialize_laiwang_dynamic.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_laiwang_dynamic.png
+* src\main\res\drawable\umeng_socialize_laiwang_dynamic_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_laiwang_dynamic_gray.png
+* src\main\res\drawable\umeng_socialize_laiwang_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_laiwang_gray.png
+* src\main\res\drawable\umeng_socialize_light_bar_bg.9.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_light_bar_bg.9.png
+* src\main\res\drawable\umeng_socialize_line.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_line.png
+* src\main\res\drawable\umeng_socialize_line_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_line_gray.png
+* src\main\res\drawable\umeng_socialize_linkedin.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_linkedin.png
+* src\main\res\drawable\umeng_socialize_linkedin_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_linkedin_gray.png
+* src\main\res\drawable\umeng_socialize_location_ic.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_location_ic.png
+* src\main\res\drawable\umeng_socialize_location_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_location_off.png
+* src\main\res\drawable\umeng_socialize_location_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_location_on.png
+* src\main\res\drawable\umeng_socialize_nav_bar_bg.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_nav_bar_bg.png
+* src\main\res\drawable\umeng_socialize_oauth_check.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_oauth_check.xml
+* src\main\res\drawable\umeng_socialize_oauth_check_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_oauth_check_off.png
+* src\main\res\drawable\umeng_socialize_oauth_check_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_oauth_check_on.png
+* src\main\res\drawable\umeng_socialize_pinterest.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_pinterest.png
+* src\main\res\drawable\umeng_socialize_pinterest_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_pinterest_gray.png
+* src\main\res\drawable\umeng_socialize_pocket.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_pocket.png
+* src\main\res\drawable\umeng_socialize_pocket_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_pocket_gray.png
+* src\main\res\drawable\umeng_socialize_qq_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_qq_off.png
+* src\main\res\drawable\umeng_socialize_qq_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_qq_on.png
+* src\main\res\drawable\umeng_socialize_qzone_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_qzone_off.png
+* src\main\res\drawable\umeng_socialize_qzone_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_qzone_on.png
+* src\main\res\drawable\umeng_socialize_refersh.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_refersh.png
+* src\main\res\drawable\umeng_socialize_renren_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_renren_off.png
+* src\main\res\drawable\umeng_socialize_renren_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_renren_on.png
+* src\main\res\drawable\umeng_socialize_search_icon.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_search_icon.png
+* src\main\res\drawable\umeng_socialize_shape_solid_black.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_shape_solid_black.xml
+* src\main\res\drawable\umeng_socialize_shape_solid_grey.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_shape_solid_grey.xml
+* src\main\res\drawable\umeng_socialize_share_to_button.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_share_to_button.xml
+* src\main\res\drawable\umeng_socialize_share_transparent_corner.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_share_transparent_corner.xml
+* src\main\res\drawable\umeng_socialize_shareboard_item_background.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_shareboard_item_background.xml
+* src\main\res\drawable\umeng_socialize_sidebar_normal.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_sidebar_normal.xml
+* src\main\res\drawable\umeng_socialize_sidebar_selected.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_sidebar_selected.xml
+* src\main\res\drawable\umeng_socialize_sidebar_selector.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_sidebar_selector.xml
+* src\main\res\drawable\umeng_socialize_sina_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_sina_off.png
+* src\main\res\drawable\umeng_socialize_sina_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_sina_on.png
+* src\main\res\drawable\umeng_socialize_sms_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_sms_off.png
+* src\main\res\drawable\umeng_socialize_sms_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_sms_on.png
+* src\main\res\drawable\umeng_socialize_title_back_bt.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_back_bt.xml
+* src\main\res\drawable\umeng_socialize_title_back_bt_normal.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_back_bt_normal.png
+* src\main\res\drawable\umeng_socialize_title_back_bt_selected.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_back_bt_selected.png
+* src\main\res\drawable\umeng_socialize_title_right_bt.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_right_bt.xml
+* src\main\res\drawable\umeng_socialize_title_right_bt_normal.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_right_bt_normal.png
+* src\main\res\drawable\umeng_socialize_title_right_bt_selected.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_right_bt_selected.png
+* src\main\res\drawable\umeng_socialize_title_tab_button_left.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_tab_button_left.xml
+* src\main\res\drawable\umeng_socialize_title_tab_button_right.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_tab_button_right.xml
+* src\main\res\drawable\umeng_socialize_title_tab_left_normal.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_tab_left_normal.png
+* src\main\res\drawable\umeng_socialize_title_tab_left_pressed.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_tab_left_pressed.png
+* src\main\res\drawable\umeng_socialize_title_tab_right_normal.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_tab_right_normal.png
+* src\main\res\drawable\umeng_socialize_title_tab_right_pressed.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_title_tab_right_pressed.png
+* src\main\res\drawable\umeng_socialize_tumblr.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_tumblr.png
+* src\main\res\drawable\umeng_socialize_tumblr_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_tumblr_gray.png
+* src\main\res\drawable\umeng_socialize_twitter.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_twitter.png
+* src\main\res\drawable\umeng_socialize_tx_off.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_tx_off.png
+* src\main\res\drawable\umeng_socialize_tx_on.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_tx_on.png
+* src\main\res\drawable\umeng_socialize_wechat.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_wechat.png
+* src\main\res\drawable\umeng_socialize_wechat_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_wechat_gray.png
+* src\main\res\drawable\umeng_socialize_whatsapp.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_whatsapp.png
+* src\main\res\drawable\umeng_socialize_whatsapp_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_whatsapp_gray.png
+* src\main\res\drawable\umeng_socialize_window_shadow_pad.xml => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_window_shadow_pad.xml
+* src\main\res\drawable\umeng_socialize_wxcircle.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_wxcircle.png
+* src\main\res\drawable\umeng_socialize_wxcircle_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_wxcircle_gray.png
+* src\main\res\drawable\umeng_socialize_x_button.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_x_button.png
+* src\main\res\drawable\umeng_socialize_yixin.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_yixin.png
+* src\main\res\drawable\umeng_socialize_yixin_circle.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_yixin_circle.png
+* src\main\res\drawable\umeng_socialize_yixin_circle_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_yixin_circle_gray.png
+* src\main\res\drawable\umeng_socialize_yixin_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_yixin_gray.png
+* src\main\res\drawable\umeng_socialize_ynote.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_ynote.png
+* src\main\res\drawable\umeng_socialize_ynote_gray.png => social_sdk_library_project\src\main\resources\main\res\drawable\umeng_socialize_ynote_gray.png
+* src\main\res\layout-sw550dp-large\umeng_socialize_full_alert_dialog.xml => social_sdk_library_project\src\main\resources\main\res\layout-sw550dp-large\umeng_socialize_full_alert_dialog.xml
+* src\main\res\layout-sw550dp-large\umeng_socialize_oauth_dialog.xml => social_sdk_library_project\src\main\resources\main\res\layout-sw550dp-large\umeng_socialize_oauth_dialog.xml
+* src\main\res\layout-sw550dp-large\umeng_socialize_post_share.xml => social_sdk_library_project\src\main\resources\main\res\layout-sw550dp-large\umeng_socialize_post_share.xml
+* src\main\res\layout-sw550dp-large\umeng_socialize_titile_bar.xml => social_sdk_library_project\src\main\resources\main\res\layout-sw550dp-large\umeng_socialize_titile_bar.xml
+* src\main\res\layout\com_facebook_activity_layout.xml => social_sdk_library_project\src\main\resources\main\res\layout\com_facebook_activity_layout.xml
+* src\main\res\layout\com_facebook_login_fragment.xml => social_sdk_library_project\src\main\resources\main\res\layout\com_facebook_login_fragment.xml
+* src\main\res\layout\com_facebook_tooltip_bubble.xml => social_sdk_library_project\src\main\resources\main\res\layout\com_facebook_tooltip_bubble.xml
+* src\main\res\layout\messenger_button_send_blue_large.xml => social_sdk_library_project\src\main\resources\main\res\layout\messenger_button_send_blue_large.xml
+* src\main\res\layout\messenger_button_send_blue_round.xml => social_sdk_library_project\src\main\resources\main\res\layout\messenger_button_send_blue_round.xml
+* src\main\res\layout\messenger_button_send_blue_small.xml => social_sdk_library_project\src\main\resources\main\res\layout\messenger_button_send_blue_small.xml
+* src\main\res\layout\messenger_button_send_white_large.xml => social_sdk_library_project\src\main\resources\main\res\layout\messenger_button_send_white_large.xml
+* src\main\res\layout\messenger_button_send_white_round.xml => social_sdk_library_project\src\main\resources\main\res\layout\messenger_button_send_white_round.xml
+* src\main\res\layout\messenger_button_send_white_small.xml => social_sdk_library_project\src\main\resources\main\res\layout\messenger_button_send_white_small.xml
+* src\main\res\layout\umeng_bak_at_list.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_bak_at_list.xml
+* src\main\res\layout\umeng_bak_at_list_item.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_bak_at_list_item.xml
+* src\main\res\layout\umeng_bak_platform_item_simple.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_bak_platform_item_simple.xml
+* src\main\res\layout\umeng_bak_platform_selector_dialog.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_bak_platform_selector_dialog.xml
+* src\main\res\layout\umeng_socialize_base_alert_dialog.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_base_alert_dialog.xml
+* src\main\res\layout\umeng_socialize_base_alert_dialog_button.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_base_alert_dialog_button.xml
+* src\main\res\layout\umeng_socialize_bind_select_dialog.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_bind_select_dialog.xml
+* src\main\res\layout\umeng_socialize_facebook_login_activity_layout.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_facebook_login_activity_layout.xml
+* src\main\res\layout\umeng_socialize_failed_load_page.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_failed_load_page.xml
+* src\main\res\layout\umeng_socialize_full_alert_dialog.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_full_alert_dialog.xml
+* src\main\res\layout\umeng_socialize_full_alert_dialog_item.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_full_alert_dialog_item.xml
+* src\main\res\layout\umeng_socialize_full_curtain.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_full_curtain.xml
+* src\main\res\layout\umeng_socialize_oauth_dialog.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_oauth_dialog.xml
+* src\main\res\layout\umeng_socialize_post_share.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_post_share.xml
+* src\main\res\layout\umeng_socialize_shareboard_item.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_shareboard_item.xml
+* src\main\res\layout\umeng_socialize_simple_spinner_item.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_simple_spinner_item.xml
+* src\main\res\layout\umeng_socialize_titile_bar.xml => social_sdk_library_project\src\main\resources\main\res\layout\umeng_socialize_titile_bar.xml
+* src\main\res\values\facebook_attrs.xml => social_sdk_library_project\src\main\resources\main\res\values\facebook_attrs.xml
+* src\main\res\values\facebook_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\facebook_strings.xml
+* src\main\res\values\facebook_styles.xml => social_sdk_library_project\src\main\resources\main\res\values\facebook_styles.xml
+* src\main\res\values\messenger_button_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\messenger_button_strings.xml
+* src\main\res\values\messenger_button_styles.xml => social_sdk_library_project\src\main\resources\main\res\values\messenger_button_styles.xml
+* src\main\res\values\umeng_socialize_colors.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_colors.xml
+* src\main\res\values\umeng_socialize_facebook_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_facebook_strings.xml
+* src\main\res\values\umeng_socialize_flickr_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_flickr_strings.xml
+* src\main\res\values\umeng_socialize_foursquare_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_foursquare_strings.xml
+* src\main\res\values\umeng_socialize_kakao_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_kakao_strings.xml
+* src\main\res\values\umeng_socialize_laiwang_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_laiwang_strings.xml
+* src\main\res\values\umeng_socialize_line_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_line_strings.xml
+* src\main\res\values\umeng_socialize_linkedin_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_linkedin_strings.xml
+* src\main\res\values\umeng_socialize_pocket_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_pocket_strings.xml
+* src\main\res\values\umeng_socialize_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_strings.xml
+* src\main\res\values\umeng_socialize_style.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_style.xml
+* src\main\res\values\umeng_socialize_tumblr_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_tumblr_strings.xml
+* src\main\res\values\umeng_socialize_whatsapp_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_whatsapp_strings.xml
+* src\main\res\values\umeng_socialize_ynote_strings.xml => social_sdk_library_project\src\main\resources\main\res\values\umeng_socialize_ynote_strings.xml
+In Collector:
+* AndroidManifest.xml => collector\src\main\AndroidManifest.xml
+* assets\ => collector\src\main\assets
+* libs\android-async-http-1.4.6.jar => collector\libs\android-async-http-1.4.6.jar
+* libs\armeabi-v7a\libbdpush_V2_2.so => collector\src\main\jniLibs\armeabi-v7a\libbdpush_V2_2.so
+* libs\armeabi-v7a\libumeng_opustool.so => collector\src\main\jniLibs\armeabi-v7a\libumeng_opustool.so
+* libs\armeabi\libbspatch.so => collector\src\main\jniLibs\armeabi\libbspatch.so
+* libs\armeabi\libumeng_opustool.so => collector\src\main\jniLibs\armeabi\libumeng_opustool.so
+* libs\com.umeng.fb.v5.1.0.jar => collector\libs\com.umeng.fb.v5.1.0.jar
+* libs\httpmime-4.1.3.jar => collector\libs\httpmime-4.1.3.jar
+* libs\mips\libbdpush_V2_2.so => collector\src\main\jniLibs\mips\libbdpush_V2_2.so
+* libs\mips\libumeng_opustool.so => collector\src\main\jniLibs\mips\libumeng_opustool.so
+* libs\pushservice-4.4.0.71.jar => collector\libs\pushservice-4.4.0.71.jar
+* libs\umeng-analytics-v5.2.4.jar => collector\libs\umeng-analytics-v5.2.4.jar
+* libs\umeng-update-v2.6.0.jar => collector\libs\umeng-update-v2.6.0.jar
+* libs\universal-image-loader-1.9.3.jar => collector\libs\universal-image-loader-1.9.3.jar
+* libs\x86\libumeng_opustool.so => collector\src\main\jniLibs\x86\libumeng_opustool.so
+* lint.xml => collector\lint.xml
+* res\ => collector\src\main\res\
+* src\ => collector\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

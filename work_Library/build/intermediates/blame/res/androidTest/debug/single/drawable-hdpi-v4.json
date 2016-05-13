@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_settings.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_settings.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\banner_bg.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\banner_bg.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\head.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\head.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\xsearch_loading.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\xsearch_loading.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\checkbox_on.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\checkbox_on.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\input_box.9.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\input_box.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\xsearch_msg_pull_arrow_down.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\xsearch_msg_pull_arrow_down.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\checkbox_off.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\checkbox_off.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\line_list_seperator.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\line_list_seperator.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\guide_dot_black.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\guide_dot_black.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\guide_dot_white.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\guide_dot_white.png"
+    }
+]

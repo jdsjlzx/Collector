@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_common_web.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_common_web.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\layout_horizontal_line_without_space.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_horizontal_line_without_space.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_load_footer.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_load_footer.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\layout_title_bar.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_title_bar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\layout_title_bar_text.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_title_bar_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header2.xml",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header2.xml"
+    }
+]

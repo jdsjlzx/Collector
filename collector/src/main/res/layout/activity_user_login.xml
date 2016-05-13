@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_bg" >
+
+    <!-- title bar -->
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title_bar" />
+
+    <EditText
+        android:id="@+id/account_editor"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/edit_box_height"
+        android:layout_below="@id/title_bar"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/input_box"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:hint="@string/mobile_hint"
+        android:inputType="numberDecimal"
+        android:maxLength="11"
+        android:paddingLeft="@dimen/input_box_left_padding"
+        android:paddingRight="40.0dip"
+        android:singleLine="true"
+        android:textColor="@color/grey_text"
+        android:textSize="@dimen/font_normal" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_editor"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/notice_vertical_padding"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/red_text"
+        android:textSize="@dimen/font_small"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/psw_editor"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/edit_box_height"
+        android:layout_below="@+id/error"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/input_box"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:hint="@string/psw_hint"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:paddingLeft="@dimen/input_box_left_padding"
+        android:singleLine="true"
+        android:textColor="@color/grey_text"
+        android:textSize="@dimen/font_normal" />
+
+    <Button
+        android:id="@+id/login"
+        style="@style/common_button_style"
+        android:layout_below="@id/psw_editor"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/selector_corners_button"
+        android:text="@string/login" />
+
+    <RelativeLayout
+        android:id="@+id/user_help_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="30.0dip"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25.0dip" >
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:clickable="true"
+            android:text="@string/register"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/forgot_psw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:clickable="true"
+            android:text="@string/forgot_psw"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/font_normal" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_help_layout"
+        android:gravity="center"
+        android:layout_marginTop="50dip"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/login_login_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:background="@drawable/ic_tencent_login" />
+
+        <ImageView
+            android:id="@+id/login_login_sina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:layout_marginStart="40dip"
+            android:background="@drawable/ic_weibo_login" />
+    </LinearLayout>
+
+</RelativeLayout>

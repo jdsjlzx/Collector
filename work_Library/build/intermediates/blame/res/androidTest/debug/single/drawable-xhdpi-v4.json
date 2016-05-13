@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abs__list_pressed_holo_dark.9.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\abs__list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\guide02.jpg",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\guide02.jpg"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abs__list_longpressed_holo.9.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\abs__list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\back_btn.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\back_btn.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abs__list_selector_disabled_holo_dark.9.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\abs__list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\setting.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\setting.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abs__list_focused_holo.9.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\abs__list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\guide01.jpg",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\guide01.jpg"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_favor.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_favor.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\splash.png",
+        "source": "E:\\AndroidStudioProjects\\Collector\\work_Library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\splash.png"
+    }
+]

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="social_sdk_library_project.social_sdk_library_project">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/social_sdk_library_project/build/libs/social_sdk_library_project.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
